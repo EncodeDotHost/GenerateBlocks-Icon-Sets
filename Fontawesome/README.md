@@ -4,7 +4,11 @@
 [https://fontawesome.com/license/free](https://fontawesome.com/license/free)
 
 The SVG icons for Font Awesome are released under the CC BY 4.0 License which means if you use these in Generateblocks you will need to reference this in the html output of the page.
-The easiest way to do this is to create a Element and output the text under the wp_head hook.
+The easiest way to do this is to create a Element and output the text under the wp_head hook. Suggested attribution:
+
+
+`Font Awesome 5.15 by @davegandy - http://fontawesome.io - @fontawesome`  
+`License - http://fontawesome.io/license (SVG Icons — CC BY 4.0 License )`
 
 
 The group imports have been built from the 5.15 svg icons which have been broken down into their respective categories.
