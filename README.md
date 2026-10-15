@@ -1,7 +1,18 @@
 # GenerateBlocks-Icon-Sets
 A collection of icon sets for the GenerateBlocks Pro WordPress Plugin
 
-## How to use
+## Install with the plugin
+
+The GenerateBlocks Icon Sets plugin installs the groups for you, straight from this repository.
+
+1. Download `generateblocks-icon-sets.zip` from the [latest release](https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets/releases/latest).
+2. In WordPress, go to Plugins > Add New > Upload Plugin, upload the zip and activate it.
+3. Go to GenerateBlocks > Icon Sets, select the groups you want and click Install selected.
+
+The plugin shows which groups are installed, updates them when the repository changes, and can remove them.
+It also has a WP-CLI command, `wp gb-icon-sets`. The plugin source is in [plugin/generateblocks-icon-sets](plugin/generateblocks-icon-sets).
+
+## How to use (manual import)
 
 The [help page](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/help.html) explains how to download a group file and import it.
 In short: download a `group-*.json` file, then in WordPress go to GenerateBlocks > Asset Library > Icons and click Import.
@@ -19,7 +30,7 @@ You pay the same price. The icon sets in this repository are free and do not dep
 
 [https://encodedothost.github.io/GenerateBlocks-Icon-Sets/](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/) shows every group in a searchable gallery, with the license and links for each set.
 
-The [LICENSE](LICENSE) file (GPL-3.0) covers this repository's own work: the README files, the gallery in `docs/` and the category mappings. It does not cover the icons. Each icon set keeps its upstream license, listed below.
+The [LICENSE](LICENSE) file (GPL-3.0) covers this repository's own work: the README files, the gallery in `docs/`, the category mappings and the plugin in `plugin/`. It does not cover the icons. Each icon set keeps its upstream license, listed below.
 
 Each set folder has a README with its source, license and attribution:
 

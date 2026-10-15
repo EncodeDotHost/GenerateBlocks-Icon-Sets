@@ -1,0 +1,30 @@
+.gbis-wrap { max-width: 1100px; }
+.gbis-settings { margin: 16px 0; }
+.gbis-settings-status { margin-left: 8px; color: #50575e; }
+.gbis-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0 8px; }
+.gbis-selected-count { color: #50575e; }
+.gbis-progress { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+.gbis-progress progress { width: 240px; }
+.gbis-log { max-height: 160px; overflow: auto; margin: 0 0 16px; font-size: 12px; }
+.gbis-log li { margin: 0 0 2px; }
+.gbis-log-error { color: #b32d2e; }
+.gbis-log-success { color: #007017; }
+.gbis-total { color: #50575e; }
+.gbis-set { background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; margin: 0 0 12px; }
+.gbis-set > summary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 12px 16px; cursor: pointer; }
+.gbis-set[open] > summary { border-bottom: 1px solid #dcdcde; }
+.gbis-set-name { font-size: 14px; font-weight: 600; }
+.gbis-set-license, .gbis-set-summary { color: #50575e; }
+.gbis-set-meta { padding: 8px 16px 0; }
+.gbis-set-meta p { margin: 0 0 8px; }
+.gbis-attribution { background: #fcf9e8; border-left: 4px solid #dba617; padding: 6px 10px; }
+.gbis-style { padding: 0 16px 16px; }
+.gbis-style h3 { font-size: 13px; margin: 12px 0 6px; }
+.gbis-table .check-column { width: 2.2em; }
+.gbis-num { text-align: right; width: 5em; }
+.gbis-actions { white-space: nowrap; }
+.gbis-actions .button { margin-right: 4px; }
+.gbis-status { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; background: #f0f0f1; }
+.gbis-status-installed { background: #edfaef; color: #005c12; }
+.gbis-status-changed { background: #fcf9e8; color: #6e4a00; }
+.gbis-status-foreign { background: #fcf0f1; color: #8a2424; }

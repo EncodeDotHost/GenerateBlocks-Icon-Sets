@@ -1,0 +1,49 @@
+# Build the plugin zip and attach it to a GitHub Release.
+# Push a tag such as v1.0.0. The tag must match the Version header in
+# plugin/generateblocks-icon-sets/generateblocks-icon-sets.php and the
+# Stable tag in readme.txt.
+name: Release plugin
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Check versions match the tag
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          dir=plugin/generateblocks-icon-sets
+          header=$(sed -n 's/^ \* Version: *//p' "$dir/generateblocks-icon-sets.php" | tr -d '\r')
+          constant=$(sed -n "s/^define( 'GBIS_VERSION', '\(.*\)' );/\1/p" "$dir/generateblocks-icon-sets.php")
+          stable=$(sed -n 's/^Stable tag: *//p' "$dir/readme.txt" | tr -d '\r')
+          echo "tag=$tag header=$header constant=$constant stable=$stable"
+          if [ "$tag" != "$header" ] || [ "$tag" != "$constant" ] || [ "$tag" != "$stable" ]; then
+            echo "::error::Tag $tag does not match the plugin versions."
+            exit 1
+          fi
+
+      - name: Build zip
+        working-directory: plugin
+        run: |
+          zip -r -X ../generateblocks-icon-sets.zip generateblocks-icon-sets -x '*.DS_Store'
+          unzip -l ../generateblocks-icon-sets.zip
+
+      - name: Create or update the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" generateblocks-icon-sets.zip --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" generateblocks-icon-sets.zip --title "GenerateBlocks Icon Sets $GITHUB_REF_NAME" --generate-notes
+          fi
