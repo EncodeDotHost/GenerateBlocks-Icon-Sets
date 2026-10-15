@@ -1,0 +1,840 @@
+# Hand-curated categories for the Font Awesome Free brand icons that
+# metadata/categories.yml does not place in any category.
+#
+# Keys are Font Awesome category labels (plus "Other"). Values are icon
+# names from metadata/icons.json. An icon may appear under several labels.
+# The first draft came from the icon search terms; every entry was then
+# reviewed by hand. Edit this file and rerun build_fontawesome.py to move icons.
+# Icons that categories.yml already places are merged in by the script.
+
+Accessibility:
+  - a11y-project
+
+Animals:
+  - cuttlefish
+  - hornbill
+
+Astronomy:
+  - skyatlas
+
+Automotive:
+  - lyft
+  - tesla
+  - uber
+  - waze
+
+Business:
+  - amilia
+  - angellist
+  - asymmetrik
+  - atlassian
+  - aviato
+  - buy-n-large
+  - cmplid
+  - confluence
+  - dashcube
+  - deskpro
+  - dolibarr
+  - earlybirds
+  - fulcrum
+  - gofore
+  - google
+  - hire-a-helper
+  - hooli
+  - hubspot
+  - intercom
+  - jira
+  - joget
+  - linkedin
+  - linkedin-in
+  - lumon
+  - lumon-drop
+  - medrt
+  - meta
+  - microsoft
+  - notion
+  - pied-piper
+  - pied-piper-alt
+  - pied-piper-hat
+  - pied-piper-pp
+  - red-river
+  - rockrms
+  - salesforce
+  - sellsy
+  - slack
+  - speakap
+  - square-deskpro
+  - square-linkedin
+  - square-pied-piper
+  - square-upwork
+  - square-viadeo
+  - square-xing
+  - staylinked
+  - supportnow
+  - think-peaks
+  - trello
+  - upwork
+  - viadeo
+  - xing
+  - y-combinator
+  - yahoo
+  - yammer
+  - yandex
+  - yandex-international
+  - zoom
+
+Charity:
+  - gratipay
+  - kickstarter
+  - kickstarter-k
+  - ko-fi
+  - patreon
+
+Charts + Diagrams:
+  - dashcube
+  - fulcrum
+  - hotjar
+  - think-peaks
+
+Clothing + Fashion:
+  - black-tie
+  - cotton-bureau
+  - ravelry
+  - shirtsinbulk
+  - yarn
+
+Coding:
+  - 42-group
+  - a11y-project
+  - accusoft
+  - affiliatetheme
+  - algolia
+  - android
+  - angular
+  - apper
+  - arch-linux
+  - atlassian
+  - autoprefixer
+  - aws
+  - bitbucket
+  - bootstrap
+  - bots
+  - brave
+  - brave-reverse
+  - build-awesome
+  - centercode
+  - centos
+  - chrome
+  - claude
+  - cloudflare
+  - cloudscale
+  - cloudsmith
+  - cloudversify
+  - codeberg
+  - codepen
+  - confluence
+  - connectdevelop
+  - contao
+  - copilot
+  - cpanel
+  - css3
+  - css3-alt
+  - dart-lang
+  - debian
+  - deploydog
+  - dev
+  - devpost
+  - digital-ocean
+  - docker
+  - drupal
+  - dyalog
+  - edge
+  - edge-legacy
+  - elementor
+  - eleventy
+  - ember
+  - erlang
+  - expeditedssl
+  - fedora
+  - firefox
+  - firefox-browser
+  - fly
+  - flutter
+  - fonticons
+  - fonticons-fi
+  - forgejo
+  - fort-awesome
+  - fort-awesome-alt
+  - free-code-camp
+  - freebsd
+  - git
+  - git-alt
+  - gitee
+  - github
+  - github-alt
+  - gitkraken
+  - gitlab
+  - gitter
+  - glide
+  - glide-g
+  - golang
+  - grunt
+  - gulp
+  - hacker-news
+  - hackerrank
+  - hashnode
+  - html5
+  - hugging-face
+  - internet-explorer
+  - ioxhost
+  - java
+  - jenkins
+  - jira
+  - joget
+  - joomla
+  - js
+  - jsfiddle
+  - julia
+  - kaggle
+  - keycdn
+  - kubernetes
+  - laravel
+  - leetcode
+  - less
+  - lets-encrypt
+  - linode
+  - linux
+  - markdown
+  - maxcdn
+  - mdb
+  - megaport
+  - modx
+  - node
+  - node-js
+  - npm
+  - octopus-deploy
+  - openai
+  - opensuse
+  - opera
+  - osi
+  - pagelines
+  - phabricator
+  - phoenix-framework
+  - php
+  - postgresql
+  - python
+  - r-project
+  - raspberry-pi
+  - react
+  - reacteurope
+  - readme
+  - redhat
+  - roblox-creator-studio
+  - ror
+  - rust
+  - safari
+  - sass
+  - scaleway
+  - schlix
+  - servicestack
+  - shoelace
+  - sourcetree
+  - square-build-awesome-stroke
+  - square-font-awesome
+  - square-font-awesome-stroke
+  - square-git
+  - square-github
+  - square-gitlab
+  - square-hacker-news
+  - square-js
+  - square-web-awesome
+  - square-web-awesome-stroke
+  - squarespace
+  - stack-exchange
+  - stack-overflow
+  - stackpath
+  - storybook
+  - suse
+  - svelte
+  - swift
+  - symfony
+  - symfonycasts
+  - tailwind-css
+  - tex
+  - themeco
+  - themeisle
+  - tor-browser
+  - typescript
+  - typo3
+  - ubuntu
+  - uikit
+  - ultralytics
+  - ultralytics-hub
+  - ultralytics-yolo
+  - umbraco
+  - uniregistry
+  - unison
+  - unity
+  - unreal-engine
+  - vaadin
+  - vim
+  - visual-studio
+  - vuejs
+  - w3c
+  - watchman-monitoring
+  - webflow
+  - weebly
+  - whmcs
+  - windows
+  - wix
+  - wordpress
+  - wordpress-simple
+  - wpbeginner
+  - wpexplorer
+  - wpforms
+  - wpressr
+  - xmpp
+  - yoast
+
+Communication:
+  - circle-zulip
+  - deskpro
+  - discord
+  - facebook-messenger
+  - gitter
+  - guilded
+  - intercom
+  - kakao-talk
+  - keybase
+  - line
+  - matrix
+  - mattermost
+  - pushed
+  - qq
+  - replyd
+  - rocketchat
+  - signal-messenger
+  - skype
+  - slack
+  - snapchat
+  - speakap
+  - square-deskpro
+  - square-snapchat
+  - square-whatsapp
+  - supportnow
+  - teamspeak
+  - telegram
+  - threema
+  - viber
+  - weixin
+  - whatsapp
+  - xmpp
+  - yammer
+  - zoom
+  - zulip
+
+Connectivity:
+  - brave
+  - brave-reverse
+  - chrome
+  - edge
+  - edge-legacy
+  - firefox
+  - firefox-browser
+  - internet-explorer
+  - megaport
+  - opera
+  - safari
+  - tor-browser
+  - usb
+
+Construction:
+  - bimobject
+  - simplybuilt
+  - wirsindhandwerk
+
+Design:
+  - angrycreative
+  - artstation
+  - behance
+  - bimobject
+  - black-tie
+  - bootstrap
+  - build-awesome
+  - deviantart
+  - dribbble
+  - elementor
+  - ello
+  - figma
+  - fonticons
+  - fonticons-fi
+  - fort-awesome
+  - fort-awesome-alt
+  - invision
+  - pagelines
+  - pixiv
+  - sketch
+  - square-behance
+  - square-build-awesome-stroke
+  - square-dribbble
+  - square-figma
+  - square-font-awesome
+  - square-font-awesome-stroke
+  - square-web-awesome
+  - square-web-awesome-stroke
+  - squarespace
+  - themeco
+  - themeisle
+  - uikit
+  - webflow
+  - weebly
+  - wix
+
+Devices + Hardware:
+  - android
+  - apple
+  - arch-linux
+  - blackberry
+  - centos
+  - chromecast
+  - debian
+  - fedora
+  - freebsd
+  - linux
+  - microsoft
+  - opensuse
+  - raspberry-pi
+  - redhat
+  - suse
+  - ubuntu
+  - usb
+  - windows
+
+Education:
+  - 42-group
+  - duolingo
+  - free-code-camp
+  - google-scholar
+  - hackerrank
+  - leetcode
+  - mendeley
+  - orcid
+  - padlet
+  - researchgate
+  - symfonycasts
+  - wikipedia-w
+  - wpbeginner
+
+Files:
+  - dochub
+  - dropbox
+  - evernote
+  - files-pinwheel
+  - google-drive
+  - instalod
+  - internet-archive
+  - nextcloud
+  - notion
+  - obsidian
+  - readme
+  - scribd
+  - slideshare
+  - speaker-deck
+
+Film + Video:
+  - bilibili
+  - chromecast
+  - dailymotion
+  - imdb
+  - letterboxd
+  - obs-studio
+  - odysee
+  - periscope
+  - screenpal
+  - sellcast
+  - square-letterboxd
+  - square-vimeo
+  - square-youtube
+  - tiktok
+  - vimeo
+  - vimeo-v
+  - vine
+  - youtube-shorts
+
+Food + Beverage:
+  - nutritionix
+  - untappd
+  - yelp
+
+Gaming:
+  - battle-net
+  - board-game-geek
+  - codiepie
+  - discord
+  - gripfire
+  - guilded
+  - itch-io
+  - obs-studio
+  - roblox-creator-studio
+  - superpowers
+  - teamspeak
+  - the-red-yeti
+  - uncharted
+  - unity
+  - unreal-engine
+
+Household:
+  - buromobelexperte
+  - hire-a-helper
+  - houzz
+
+Logistics:
+  - dhl
+  - fedex
+  - staylinked
+  - ups
+  - usps
+
+Maps:
+  - foursquare
+  - openstreetmap
+  - skyatlas
+  - waze
+
+Marketing:
+  - adversal
+  - affiliatetheme
+  - angrycreative
+  - buffer
+  - buysellads
+  - hotjar
+  - hubspot
+  - linktree
+  - mailchimp
+  - optin-monster
+  - salesforce
+  - searchengin
+  - sistrix
+  - sticker-mule
+  - yoast
+
+Mathematics:
+  - r-project
+  - tex
+
+Medical + Health:
+  - medapps
+  - nutritionix
+
+Money:
+  - angellist
+  - bity
+  - cash-app
+  - gratipay
+  - hips
+  - hive
+  - ideal
+  - kickstarter
+  - kickstarter-k
+  - ko-fi
+  - mintbit
+  - monero
+  - neos
+  - patreon
+  - sellsy
+  - solana
+  - venmo
+  - venmo-v
+  - viacoin
+  - whmcs
+  - xrp
+  - xrpl
+  - y-combinator
+
+Music + Audio:
+  - audible
+  - bandcamp
+  - deezer
+  - itunes
+  - itunes-note
+  - lastfm
+  - mix
+  - mixcloud
+  - mixer
+  - pandora
+  - rev
+  - square-lastfm
+  - tidal
+
+Nature:
+  - canadian-maple-leaf
+  - red-river
+
+Photos + Images:
+  - 500px
+  - artstation
+  - deviantart
+  - envira
+  - flickr
+  - instagram
+  - jxl
+  - pinterest
+  - pinterest-p
+  - pix
+  - pixelfed
+  - pixiv
+  - square-instagram
+  - square-pinterest
+  - vsco
+
+Political:
+  - canadian-maple-leaf
+  - palfed
+
+Religion:
+  - rockrms
+  - ussunnah
+
+Science:
+  - claude
+  - google-scholar
+  - hugging-face
+  - julia
+  - kaggle
+  - mendeley
+  - openai
+  - orcid
+  - r-project
+  - researchgate
+  - ultralytics
+  - ultralytics-hub
+  - ultralytics-yolo
+
+Science Fiction:
+  - empire
+  - first-order
+  - first-order-alt
+  - mandalorian
+  - phoenix-squadron
+  - rebel
+  - sith
+  - superpowers
+  - trade-federation
+  - wolf-pack-battalion
+
+Security:
+  - cmplid
+  - expeditedssl
+  - globaleaks
+  - keybase
+  - lets-encrypt
+  - ns8
+  - openid
+  - signal-messenger
+  - stackpath
+  - threema
+  - tor-browser
+  - watchman-monitoring
+
+Shopping:
+  - amazon
+  - amilia
+  - app-store
+  - app-store-ios
+  - buy-n-large
+  - cash-app
+  - cotton-bureau
+  - ebay
+  - etsy
+  - google-play
+  - houzz
+  - ideal
+  - itch-io
+  - magento
+  - opencart
+  - shirtsinbulk
+  - shopify
+  - shopware
+  - sticker-mule
+  - stubber
+  - venmo
+  - venmo-v
+  - weebly
+  - wix
+
+Social:
+  - 500px
+  - adn
+  - artstation
+  - behance
+  - bilibili
+  - blogger
+  - blogger-b
+  - buffer
+  - delicious
+  - deviantart
+  - diaspora
+  - digg
+  - discord
+  - discourse
+  - disqus
+  - dribbble
+  - ello
+  - facebook-f
+  - facebook-messenger
+  - fediverse
+  - flickr
+  - flipboard
+  - forumbee
+  - foursquare
+  - get-pocket
+  - goodreads
+  - goodreads-g
+  - google-plus
+  - google-plus-g
+  - hacker-news
+  - hashnode
+  - instagram
+  - lastfm
+  - letterboxd
+  - linkedin
+  - linkedin-in
+  - linktree
+  - mastodon
+  - medium
+  - meetup
+  - meta
+  - microblog
+  - nimblr
+  - odnoklassniki
+  - patreon
+  - periscope
+  - pinterest
+  - pinterest-p
+  - pixelfed
+  - pixiv
+  - product-hunt
+  - qq
+  - quora
+  - ravelry
+  - reddit
+  - reddit-alien
+  - renren
+  - replyd
+  - snapchat
+  - square-behance
+  - square-dribbble
+  - square-facebook
+  - square-google-plus
+  - square-hacker-news
+  - square-instagram
+  - square-lastfm
+  - square-letterboxd
+  - square-linkedin
+  - square-odnoklassniki
+  - square-pinterest
+  - square-reddit
+  - square-snapchat
+  - square-threads
+  - square-tumblr
+  - square-twitter
+  - square-viadeo
+  - square-vimeo
+  - square-x-twitter
+  - square-xing
+  - square-youtube
+  - strava
+  - stumbleupon
+  - stumbleupon-circle
+  - substack
+  - tencent-weibo
+  - threads
+  - tiktok
+  - tumblr
+  - twitter
+  - untappd
+  - viadeo
+  - vimeo
+  - vimeo-v
+  - vine
+  - vk
+  - vsco
+  - weibo
+  - weixin
+  - whatsapp
+  - x-twitter
+  - xing
+  - yelp
+  - youtube-shorts
+  - zhihu
+
+Sports + Fitness:
+  - nutritionix
+  - strava
+
+Time:
+  - earlybirds
+
+Transportation:
+  - avianex
+  - lyft
+  - uber
+  - waze
+
+Travel + Hotel:
+  - airbnb
+  - avianex
+  - lyft
+  - uber
+
+Users + People:
+  - grav
+  - meetup
+
+Writing:
+  - blogger
+  - blogger-b
+  - draft2digital
+  - firstdraft
+  - goodreads
+  - goodreads-g
+  - hashnode
+  - leanpub
+  - markdown
+  - medium
+  - microblog
+  - rev
+  - scribd
+  - substack
+  - tex
+  - tumblr
+  - wikipedia-w
+  - wordpress
+  - wordpress-simple
+
+Other:
+  - creative-commons
+  - creative-commons-by
+  - creative-commons-nc
+  - creative-commons-nc-eu
+  - creative-commons-nc-jp
+  - creative-commons-nd
+  - creative-commons-pd
+  - creative-commons-pd-alt
+  - creative-commons-remix
+  - creative-commons-sa
+  - creative-commons-sampling
+  - creative-commons-sampling-plus
+  - creative-commons-share
+  - creative-commons-zero
+  - korvue
+  - mizuni
+  - page4
+  - perbyte
+  - quinscape
+  - resolving
+  - sitrox
+  - studiovinari
+  - supple
+  - vnv
+  - wodu
