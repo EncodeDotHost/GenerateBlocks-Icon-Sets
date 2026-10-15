@@ -22,6 +22,7 @@ You pay the same price. The icon sets in this repository are free and do not dep
 Each set folder has a README with its source, license and attribution:
 
 - [Font Awesome Free 7.3.1](Fontawesome/README.md) - CC BY 4.0, attribution required
+- [Heroicons 2.2.0](Heroicons/README.md) - MIT
 - [Lucide 1.57.0](Lucide/README.md) - ISC
 - [Material Symbols](MaterialSymbols/README.md) - Apache 2.0
 - [Phosphor Icons 2.1.1](Phosphor/README.md) - MIT

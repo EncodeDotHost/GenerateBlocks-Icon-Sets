@@ -886,6 +886,76 @@
    ]
   },
   {
+   "folder": "Heroicons",
+   "name": "Heroicons 2.2.0",
+   "author": "Refactoring UI Inc (Tailwind Labs)",
+   "license": "MIT",
+   "licenseUrl": "https://github.com/tailwindlabs/heroicons/blob/master/LICENSE",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/tailwindlabs/heroicons"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://heroicons.com"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are rebuilt from the Iconify icon bodies. No categories upstream, so each style is one group.",
+   "readme": "Heroicons/README.md",
+   "styles": [
+    {
+     "name": "Outline24",
+     "folder": "Outline24",
+     "files": [
+      {
+       "path": "Heroicons/Outline24/group-Heroicons (Outline 24).json",
+       "group": "Heroicons (Outline 24)",
+       "count": 324
+      }
+     ],
+     "count": 324
+    },
+    {
+     "name": "Solid24",
+     "folder": "Solid24",
+     "files": [
+      {
+       "path": "Heroicons/Solid24/group-Heroicons (Solid 24).json",
+       "group": "Heroicons (Solid 24)",
+       "count": 324
+      }
+     ],
+     "count": 324
+    },
+    {
+     "name": "Solid20",
+     "folder": "Solid20",
+     "files": [
+      {
+       "path": "Heroicons/Solid20/group-Heroicons (Solid 20).json",
+       "group": "Heroicons (Solid 20)",
+       "count": 324
+      }
+     ],
+     "count": 324
+    },
+    {
+     "name": "Solid16",
+     "folder": "Solid16",
+     "files": [
+      {
+       "path": "Heroicons/Solid16/group-Heroicons (Solid 16).json",
+       "group": "Heroicons (Solid 16)",
+       "count": 316
+      }
+     ],
+     "count": 316
+    }
+   ]
+  },
+  {
    "folder": "Lucide",
    "name": "Lucide 1.57.0",
    "author": "Lucide Contributors",
@@ -2457,5 +2527,5 @@
    ]
   }
  ],
- "total": 33895
+ "total": 35183
 }

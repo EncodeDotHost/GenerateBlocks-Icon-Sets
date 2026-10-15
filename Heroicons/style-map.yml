@@ -1,0 +1,5 @@
+# Iconify theme name -> output folder and group suffix. Input for build_iconify.py --style-map.
+Outline 24x24: {folder: Outline24, suffix: Outline 24}
+Solid 24x24: {folder: Solid24, suffix: Solid 24}
+Solid 20x20: {folder: Solid20, suffix: Solid 20}
+Solid 16x16: {folder: Solid16, suffix: Solid 16}
