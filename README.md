@@ -1,9 +1,15 @@
 # GenerateBlocks-Icon-Sets
 A collection of icon sets for the GenerateBlocks Pro WordPress Plugin
 
+## How to use
+
+The [help page](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/help.html) explains how to download a group file and import it.
+In short: download a `group-*.json` file, then in WordPress go to GenerateBlocks > Asset Library > Icons and click Import.
+The official [Asset Library guide](https://learn.generatepress.com/blocks/block-guide/getting-started-generateblocks/generateblocks-pro/asset-library/) has screenshots.
+
 ## Get GenerateBlocks Pro
 
-These import files need GenerateBlocks Pro. You can get it here:
+These import files need GenerateBlocks Pro. The free GenerateBlocks plugin does not have the Asset Library. You can get Pro here:
 [generatepress.com/blocks](https://generatepress.com/blocks/?campaign=edh-gb-icon-sets&ref=3019)
 
 **Affiliate disclosure:** this is an affiliate link. If you buy through it, I earn a commission.
