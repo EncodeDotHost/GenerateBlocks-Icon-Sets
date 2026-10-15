@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help - GenerateBlocks Icon Sets</title>
+<meta name="description" content="How to download an icon group from GenerateBlocks Icon Sets and import it into the GenerateBlocks Pro Asset Library.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1b1f24; --muted: #59636e; --line: #d9dee3;
+    --card: #f6f8fa; --accent: #0969da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e; --line: #30363d;
+      --card: #161b22; --accent: #58a6ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header, main, footer { max-width: 800px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 24px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+  p { margin: 0 0 12px; }
+  ol, ul { margin: 0 0 12px; padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  a { color: var(--accent); }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 12px; font-size: 0.9rem; }
+  .notice { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 16px; margin: 0 0 12px; font-size: 0.9rem; }
+  .notice p { margin: 0 0 4px; }
+  .notice p:last-child { margin: 0; color: var(--muted); font-size: 0.85rem; }
+  code { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 0.85em; }
+  footer { padding: 32px 16px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Help</h1>
+  <p>How to download an icon group and import it into GenerateBlocks Pro.</p>
+  <div class="nav">
+    <a href="./">Back to the gallery</a>
+    <a href="https://learn.generatepress.com/blocks/block-guide/getting-started-generateblocks/generateblocks-pro/asset-library/">Official Asset Library guide</a>
+    <a href="https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets">Repository on GitHub</a>
+  </div>
+</header>
+<main>
+  <h2>What this repository is</h2>
+  <p>The repository holds icon sets that are converted into the GenerateBlocks Pro group import format.
+     Each set is split into groups by category and style, for example <code>FontAwesome (Free) (Arrows)</code> or <code>Tabler (Weather) (Outline)</code>.
+     Each group is one JSON file. You import only the groups you need, so your Asset Library stays small.</p>
+  <p>All sets come from open-source projects with permissive licenses. The gallery shows the license and attribution for each set.
+     Each set folder in the repository has a README with the full license text.</p>
+
+  <h2>You need GenerateBlocks Pro</h2>
+  <div class="notice">
+    <p>The Asset Library is a <strong>GenerateBlocks Pro</strong> feature. The free GenerateBlocks plugin cannot import these files.
+       <a href="https://generatepress.com/blocks/?campaign=edh-gb-icon-sets&amp;ref=3019" rel="sponsored">Get GenerateBlocks Pro</a>.</p>
+    <p>Affiliate disclosure: that is an affiliate link. If you buy through it, I earn a commission. You pay the same price.
+       The icon sets here are free and do not depend on it.</p>
+  </div>
+
+  <h2>Download a group file</h2>
+  <ol>
+    <li>Open the <a href="./">gallery</a>.</li>
+    <li>Choose a <strong>Set</strong>, a <strong>Style</strong> and a <strong>Group</strong>. The grid shows the icons in that group.</li>
+    <li>Click <strong>Download group-&hellip;.json</strong> above the grid. The file saves to your computer.</li>
+  </ol>
+  <p>To get every group in a style, click <strong>All &hellip; files on GitHub</strong>. That opens the folder in the repository.
+     You can download files one at a time from there, or clone the repository to get all of them.</p>
+
+  <h2>Import the group into GenerateBlocks Pro</h2>
+  <ol>
+    <li>In WordPress, go to <strong>Dashboard &gt; GenerateBlocks &gt; Asset Library</strong>.</li>
+    <li>Open the <strong>Icons</strong> tab.</li>
+    <li>In the groups panel, click <strong>Import</strong> and select the <code>group-&hellip;.json</code> file.</li>
+    <li>The new group appears in the list. Repeat for each file you want.</li>
+  </ol>
+  <p>The official <a href="https://learn.generatepress.com/blocks/block-guide/getting-started-generateblocks/generateblocks-pro/asset-library/">Asset Library guide</a>
+     has screenshots of each screen.</p>
+  <p>When you add an icon from the library to a block, GenerateBlocks saves the SVG into the block HTML.
+     After that, the block has no link to the Asset Library.</p>
+
+  <h2>Notes</h2>
+  <ul>
+    <li><strong>Group names are fixed.</strong> Each file sets its own group name. If you import the same file twice, you get two groups with the same name.</li>
+    <li><strong>Attribution.</strong> Font Awesome icons are CC BY 4.0, so your site must show the attribution text. The gallery shows the text for each set that needs it.
+        Material Symbols, Phosphor, Tabler and Zondicons do not need page attribution.</li>
+    <li><strong>Multisite.</strong> Users without the <code>unfiltered_html</code> capability (everyone except super admins on a multisite network)
+        import through the GenerateBlocks Pro SVG allowlist. It removes <code>preserveAspectRatio</code> and lowercases <code>viewBox</code>.
+        The icons still work and keep their colour setting. Single-site administrators are not affected.</li>
+    <li><strong>Problems or requests.</strong> Open an issue on <a href="https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets/issues">GitHub</a>.</li>
+  </ul>
+</main>
+<footer>
+  <p>GenerateBlocks and GeneratePress are trademarks of their owners. This repository is not affiliated with or endorsed by them.</p>
+</footer>
+</body>
+</html>

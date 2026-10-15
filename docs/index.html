@@ -31,6 +31,10 @@
   .setinfo { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9rem; }
   .setinfo .links a { margin-right: 12px; }
   .setinfo code { display: block; margin-top: 8px; padding: 8px; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; font-size: 0.8rem; white-space: pre-wrap; word-break: break-word; }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0 0 12px; font-size: 0.9rem; }
+  .notice { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 16px; margin: 0 0 12px; font-size: 0.9rem; }
+  .notice p { margin: 0 0 4px; }
+  .notice p:last-child { margin: 0; color: var(--muted); font-size: 0.85rem; }
   .status { color: var(--muted); font-size: 0.9rem; min-height: 1.5em; }
   .download { margin: 4px 0 12px; font-size: 0.9rem; }
   .download a { margin-right: 16px; }
@@ -46,8 +50,19 @@
 <body>
 <header>
   <h1>GenerateBlocks Icon Sets <small id="total"></small></h1>
-  <p>Icon group import files for GenerateBlocks Pro. Pick a set, a style and a group, then download the group file and import it in GenerateBlocks Pro.
-     Repository: <a href="https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets">EncodeDotHost/GenerateBlocks-Icon-Sets</a></p>
+  <p>Ready-made icon groups for the GenerateBlocks Pro Asset Library. Pick a set, a style and a group below.
+     Download the group file, then import it in your WordPress dashboard under GenerateBlocks &gt; Asset Library &gt; Icons.</p>
+  <div class="nav">
+    <a href="help.html">Help: download and import</a>
+    <a href="https://learn.generatepress.com/blocks/block-guide/getting-started-generateblocks/generateblocks-pro/asset-library/">Official Asset Library guide</a>
+    <a href="https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets">Repository on GitHub</a>
+  </div>
+  <div class="notice">
+    <p>These files need <strong>GenerateBlocks Pro</strong>. The free GenerateBlocks plugin does not have the Asset Library.
+       <a href="https://generatepress.com/blocks/?campaign=edh-gb-icon-sets&amp;ref=3019" rel="sponsored">Get GenerateBlocks Pro</a>.</p>
+    <p>Affiliate disclosure: that is an affiliate link. If you buy through it, I earn a commission. You pay the same price.
+       The icon sets here are free and do not depend on it.</p>
+  </div>
   <div class="controls">
     <label>Set <select id="set"></select></label>
     <label>Style <select id="style"></select></label>
@@ -65,10 +80,7 @@
 <footer>
   <p>Each set folder in the repository has a README with its full license text and attribution.
   The Font Awesome set is CC BY 4.0: the attribution text shown above is included on this page because it displays those icons.</p>
-  <p>These import files need GenerateBlocks Pro. You can get it at
-  <a href="https://generatepress.com/blocks/?campaign=edh-gb-icon-sets&amp;ref=3019" rel="sponsored">generatepress.com/blocks</a>.
-  <strong>Affiliate disclosure:</strong> this is an affiliate link. If you buy through it, I earn a commission.
-  You pay the same price. The icon sets are free and do not depend on this link.</p>
+  <p>Need help? See the <a href="help.html">help page</a> for download and import steps, licensing notes and the affiliate disclosure.</p>
 </footer>
 <script>
 (function () {
