@@ -886,6 +886,235 @@
    ]
   },
   {
+   "folder": "Lucide",
+   "name": "Lucide 1.57.0",
+   "author": "Lucide Contributors",
+   "license": "ISC",
+   "licenseUrl": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/lucide-icons/lucide"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://lucide.dev/icons"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are rebuilt from the Iconify icon bodies.",
+   "readme": "Lucide/README.md",
+   "styles": [
+    {
+     "name": "Lucide",
+     "folder": "Lucide",
+     "files": [
+      {
+       "path": "Lucide/Lucide/group-Lucide (Accessibility).json",
+       "group": "Lucide (Accessibility)",
+       "count": 22
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Accounts & access).json",
+       "group": "Lucide (Accounts & access)",
+       "count": 111
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Animals).json",
+       "group": "Lucide (Animals)",
+       "count": 16
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Arrows).json",
+       "group": "Lucide (Arrows)",
+       "count": 147
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Buildings).json",
+       "group": "Lucide (Buildings)",
+       "count": 22
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Charts).json",
+       "group": "Lucide (Charts)",
+       "count": 31
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Coding & development).json",
+       "group": "Lucide (Coding & development)",
+       "count": 100
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Communication).json",
+       "group": "Lucide (Communication)",
+       "count": 10
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Connectivity).json",
+       "group": "Lucide (Connectivity)",
+       "count": 67
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Cursors).json",
+       "group": "Lucide (Cursors)",
+       "count": 8
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Design).json",
+       "group": "Lucide (Design)",
+       "count": 65
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Devices).json",
+       "group": "Lucide (Devices)",
+       "count": 81
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Emoji).json",
+       "group": "Lucide (Emoji)",
+       "count": 14
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (File icons).json",
+       "group": "Lucide (File icons)",
+       "count": 98
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Finance).json",
+       "group": "Lucide (Finance)",
+       "count": 38
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Food & beverage).json",
+       "group": "Lucide (Food & beverage)",
+       "count": 74
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Gaming).json",
+       "group": "Lucide (Gaming)",
+       "count": 38
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Home).json",
+       "group": "Lucide (Home)",
+       "count": 39
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Layout).json",
+       "group": "Lucide (Layout)",
+       "count": 90
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Mail).json",
+       "group": "Lucide (Mail)",
+       "count": 18
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Mathematics).json",
+       "group": "Lucide (Mathematics)",
+       "count": 31
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Medical).json",
+       "group": "Lucide (Medical)",
+       "count": 35
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Multimedia).json",
+       "group": "Lucide (Multimedia)",
+       "count": 66
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Nature).json",
+       "group": "Lucide (Nature)",
+       "count": 20
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Navigation & Places).json",
+       "group": "Lucide (Navigation & Places)",
+       "count": 40
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Notifications).json",
+       "group": "Lucide (Notifications)",
+       "count": 18
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Photography).json",
+       "group": "Lucide (Photography)",
+       "count": 28
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Science).json",
+       "group": "Lucide (Science)",
+       "count": 25
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Security).json",
+       "group": "Lucide (Security)",
+       "count": 20
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Shapes).json",
+       "group": "Lucide (Shapes)",
+       "count": 39
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Shopping).json",
+       "group": "Lucide (Shopping)",
+       "count": 20
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Social).json",
+       "group": "Lucide (Social)",
+       "count": 60
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Sports).json",
+       "group": "Lucide (Sports)",
+       "count": 13
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Sustainability).json",
+       "group": "Lucide (Sustainability)",
+       "count": 1
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Text formatting).json",
+       "group": "Lucide (Text formatting)",
+       "count": 213
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Time & calendar).json",
+       "group": "Lucide (Time & calendar)",
+       "count": 53
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Tools).json",
+       "group": "Lucide (Tools)",
+       "count": 16
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Transportation).json",
+       "group": "Lucide (Transportation)",
+       "count": 56
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Travel).json",
+       "group": "Lucide (Travel)",
+       "count": 12
+      },
+      {
+       "path": "Lucide/Lucide/group-Lucide (Weather).json",
+       "group": "Lucide (Weather)",
+       "count": 35
+      }
+     ],
+     "count": 1890
+    }
+   ]
+  },
+  {
    "folder": "MaterialSymbols",
    "name": "Material Symbols",
    "author": "Google LLC",
@@ -2228,5 +2457,5 @@
    ]
   }
  ],
- "total": 32005
+ "total": 33895
 }
