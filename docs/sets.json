@@ -1184,6 +1184,610 @@
    ]
   },
   {
+   "folder": "Phosphor",
+   "name": "Phosphor Icons 2.1.1",
+   "author": "Phosphor Icons",
+   "license": "MIT",
+   "licenseUrl": "https://github.com/phosphor-icons/core/blob/main/LICENSE",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/phosphor-icons/core"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://phosphoricons.com"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are rebuilt from the Iconify icon bodies.",
+   "readme": "Phosphor/README.md",
+   "styles": [
+    {
+     "name": "Thin",
+     "folder": "Thin",
+     "files": [
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Arrows) (Thin).json",
+       "group": "Phosphor (Arrows) (Thin)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Brands) (Thin).json",
+       "group": "Phosphor (Brands) (Thin)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Commerce) (Thin).json",
+       "group": "Phosphor (Commerce) (Thin)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Communication) (Thin).json",
+       "group": "Phosphor (Communication) (Thin)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Design) (Thin).json",
+       "group": "Phosphor (Design) (Thin)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Education) (Thin).json",
+       "group": "Phosphor (Education) (Thin)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Games) (Thin).json",
+       "group": "Phosphor (Games) (Thin)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Health & Wellness) (Thin).json",
+       "group": "Phosphor (Health & Wellness) (Thin)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Maps & Travel) (Thin).json",
+       "group": "Phosphor (Maps & Travel) (Thin)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Math & Finance) (Thin).json",
+       "group": "Phosphor (Math & Finance) (Thin)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Media) (Thin).json",
+       "group": "Phosphor (Media) (Thin)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Office & Editing) (Thin).json",
+       "group": "Phosphor (Office & Editing) (Thin)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (People) (Thin).json",
+       "group": "Phosphor (People) (Thin)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Security & Warnings) (Thin).json",
+       "group": "Phosphor (Security & Warnings) (Thin)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (System & Devices) (Thin).json",
+       "group": "Phosphor (System & Devices) (Thin)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Technology & Development) (Thin).json",
+       "group": "Phosphor (Technology & Development) (Thin)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Time) (Thin).json",
+       "group": "Phosphor (Time) (Thin)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Thin/group-Phosphor (Weather & Nature) (Thin).json",
+       "group": "Phosphor (Weather & Nature) (Thin)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    },
+    {
+     "name": "Light",
+     "folder": "Light",
+     "files": [
+      {
+       "path": "Phosphor/Light/group-Phosphor (Arrows) (Light).json",
+       "group": "Phosphor (Arrows) (Light)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Brands) (Light).json",
+       "group": "Phosphor (Brands) (Light)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Commerce) (Light).json",
+       "group": "Phosphor (Commerce) (Light)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Communication) (Light).json",
+       "group": "Phosphor (Communication) (Light)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Design) (Light).json",
+       "group": "Phosphor (Design) (Light)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Education) (Light).json",
+       "group": "Phosphor (Education) (Light)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Games) (Light).json",
+       "group": "Phosphor (Games) (Light)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Health & Wellness) (Light).json",
+       "group": "Phosphor (Health & Wellness) (Light)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Maps & Travel) (Light).json",
+       "group": "Phosphor (Maps & Travel) (Light)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Math & Finance) (Light).json",
+       "group": "Phosphor (Math & Finance) (Light)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Media) (Light).json",
+       "group": "Phosphor (Media) (Light)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Office & Editing) (Light).json",
+       "group": "Phosphor (Office & Editing) (Light)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (People) (Light).json",
+       "group": "Phosphor (People) (Light)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Security & Warnings) (Light).json",
+       "group": "Phosphor (Security & Warnings) (Light)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (System & Devices) (Light).json",
+       "group": "Phosphor (System & Devices) (Light)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Technology & Development) (Light).json",
+       "group": "Phosphor (Technology & Development) (Light)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Time) (Light).json",
+       "group": "Phosphor (Time) (Light)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Light/group-Phosphor (Weather & Nature) (Light).json",
+       "group": "Phosphor (Weather & Nature) (Light)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    },
+    {
+     "name": "Regular",
+     "folder": "Regular",
+     "files": [
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Arrows) (Regular).json",
+       "group": "Phosphor (Arrows) (Regular)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Brands) (Regular).json",
+       "group": "Phosphor (Brands) (Regular)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Commerce) (Regular).json",
+       "group": "Phosphor (Commerce) (Regular)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Communication) (Regular).json",
+       "group": "Phosphor (Communication) (Regular)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Design) (Regular).json",
+       "group": "Phosphor (Design) (Regular)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Education) (Regular).json",
+       "group": "Phosphor (Education) (Regular)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Games) (Regular).json",
+       "group": "Phosphor (Games) (Regular)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Health & Wellness) (Regular).json",
+       "group": "Phosphor (Health & Wellness) (Regular)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Maps & Travel) (Regular).json",
+       "group": "Phosphor (Maps & Travel) (Regular)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Math & Finance) (Regular).json",
+       "group": "Phosphor (Math & Finance) (Regular)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Media) (Regular).json",
+       "group": "Phosphor (Media) (Regular)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Office & Editing) (Regular).json",
+       "group": "Phosphor (Office & Editing) (Regular)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (People) (Regular).json",
+       "group": "Phosphor (People) (Regular)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Security & Warnings) (Regular).json",
+       "group": "Phosphor (Security & Warnings) (Regular)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (System & Devices) (Regular).json",
+       "group": "Phosphor (System & Devices) (Regular)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Technology & Development) (Regular).json",
+       "group": "Phosphor (Technology & Development) (Regular)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Time) (Regular).json",
+       "group": "Phosphor (Time) (Regular)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Regular/group-Phosphor (Weather & Nature) (Regular).json",
+       "group": "Phosphor (Weather & Nature) (Regular)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    },
+    {
+     "name": "Bold",
+     "folder": "Bold",
+     "files": [
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Arrows) (Bold).json",
+       "group": "Phosphor (Arrows) (Bold)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Brands) (Bold).json",
+       "group": "Phosphor (Brands) (Bold)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Commerce) (Bold).json",
+       "group": "Phosphor (Commerce) (Bold)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Communication) (Bold).json",
+       "group": "Phosphor (Communication) (Bold)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Design) (Bold).json",
+       "group": "Phosphor (Design) (Bold)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Education) (Bold).json",
+       "group": "Phosphor (Education) (Bold)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Games) (Bold).json",
+       "group": "Phosphor (Games) (Bold)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Health & Wellness) (Bold).json",
+       "group": "Phosphor (Health & Wellness) (Bold)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Maps & Travel) (Bold).json",
+       "group": "Phosphor (Maps & Travel) (Bold)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Math & Finance) (Bold).json",
+       "group": "Phosphor (Math & Finance) (Bold)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Media) (Bold).json",
+       "group": "Phosphor (Media) (Bold)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Office & Editing) (Bold).json",
+       "group": "Phosphor (Office & Editing) (Bold)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (People) (Bold).json",
+       "group": "Phosphor (People) (Bold)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Security & Warnings) (Bold).json",
+       "group": "Phosphor (Security & Warnings) (Bold)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (System & Devices) (Bold).json",
+       "group": "Phosphor (System & Devices) (Bold)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Technology & Development) (Bold).json",
+       "group": "Phosphor (Technology & Development) (Bold)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Time) (Bold).json",
+       "group": "Phosphor (Time) (Bold)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Bold/group-Phosphor (Weather & Nature) (Bold).json",
+       "group": "Phosphor (Weather & Nature) (Bold)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    },
+    {
+     "name": "Fill",
+     "folder": "Fill",
+     "files": [
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Arrows) (Fill).json",
+       "group": "Phosphor (Arrows) (Fill)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Brands) (Fill).json",
+       "group": "Phosphor (Brands) (Fill)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Commerce) (Fill).json",
+       "group": "Phosphor (Commerce) (Fill)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Communication) (Fill).json",
+       "group": "Phosphor (Communication) (Fill)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Design) (Fill).json",
+       "group": "Phosphor (Design) (Fill)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Education) (Fill).json",
+       "group": "Phosphor (Education) (Fill)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Games) (Fill).json",
+       "group": "Phosphor (Games) (Fill)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Health & Wellness) (Fill).json",
+       "group": "Phosphor (Health & Wellness) (Fill)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Maps & Travel) (Fill).json",
+       "group": "Phosphor (Maps & Travel) (Fill)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Math & Finance) (Fill).json",
+       "group": "Phosphor (Math & Finance) (Fill)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Media) (Fill).json",
+       "group": "Phosphor (Media) (Fill)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Office & Editing) (Fill).json",
+       "group": "Phosphor (Office & Editing) (Fill)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (People) (Fill).json",
+       "group": "Phosphor (People) (Fill)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Security & Warnings) (Fill).json",
+       "group": "Phosphor (Security & Warnings) (Fill)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (System & Devices) (Fill).json",
+       "group": "Phosphor (System & Devices) (Fill)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Technology & Development) (Fill).json",
+       "group": "Phosphor (Technology & Development) (Fill)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Time) (Fill).json",
+       "group": "Phosphor (Time) (Fill)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Fill/group-Phosphor (Weather & Nature) (Fill).json",
+       "group": "Phosphor (Weather & Nature) (Fill)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    },
+    {
+     "name": "Duotone",
+     "folder": "Duotone",
+     "files": [
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Arrows) (Duotone).json",
+       "group": "Phosphor (Arrows) (Duotone)",
+       "count": 121
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Brands) (Duotone).json",
+       "group": "Phosphor (Brands) (Duotone)",
+       "count": 74
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Commerce) (Duotone).json",
+       "group": "Phosphor (Commerce) (Duotone)",
+       "count": 176
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Communication) (Duotone).json",
+       "group": "Phosphor (Communication) (Duotone)",
+       "count": 75
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Design) (Duotone).json",
+       "group": "Phosphor (Design) (Duotone)",
+       "count": 133
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Education) (Duotone).json",
+       "group": "Phosphor (Education) (Duotone)",
+       "count": 19
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Games) (Duotone).json",
+       "group": "Phosphor (Games) (Duotone)",
+       "count": 73
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Health & Wellness) (Duotone).json",
+       "group": "Phosphor (Health & Wellness) (Duotone)",
+       "count": 27
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Maps & Travel) (Duotone).json",
+       "group": "Phosphor (Maps & Travel) (Duotone)",
+       "count": 99
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Math & Finance) (Duotone).json",
+       "group": "Phosphor (Math & Finance) (Duotone)",
+       "count": 83
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Media) (Duotone).json",
+       "group": "Phosphor (Media) (Duotone)",
+       "count": 111
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Office & Editing) (Duotone).json",
+       "group": "Phosphor (Office & Editing) (Duotone)",
+       "count": 131
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (People) (Duotone).json",
+       "group": "Phosphor (People) (Duotone)",
+       "count": 69
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Security & Warnings) (Duotone).json",
+       "group": "Phosphor (Security & Warnings) (Duotone)",
+       "count": 45
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (System & Devices) (Duotone).json",
+       "group": "Phosphor (System & Devices) (Duotone)",
+       "count": 157
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Technology & Development) (Duotone).json",
+       "group": "Phosphor (Technology & Development) (Duotone)",
+       "count": 29
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Time) (Duotone).json",
+       "group": "Phosphor (Time) (Duotone)",
+       "count": 28
+      },
+      {
+       "path": "Phosphor/Duotone/group-Phosphor (Weather & Nature) (Duotone).json",
+       "group": "Phosphor (Weather & Nature) (Duotone)",
+       "count": 62
+      }
+     ],
+     "count": 1512
+    }
+   ]
+  },
+  {
    "folder": "Tabler",
    "name": "Tabler Icons 3.49.0",
    "author": "Paweł Kuna",
@@ -1624,5 +2228,5 @@
    ]
   }
  ],
- "total": 22933
+ "total": 32005
 }

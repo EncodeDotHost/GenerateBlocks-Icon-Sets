@@ -17,5 +17,6 @@ Each set folder has a README with its source, license and attribution:
 
 - [Font Awesome Free 7.3.1](Fontawesome/README.md) - CC BY 4.0, attribution required
 - [Material Symbols](MaterialSymbols/README.md) - Apache 2.0
+- [Phosphor Icons 2.1.1](Phosphor/README.md) - MIT
 - [Tabler Icons 3.49.0](Tabler/README.md) - MIT
 - [Zondicons](Zondicons/README.md) - Public Domain
