@@ -27,3 +27,7 @@ The categories are an opinion, not Font Awesome data. To move an icon, edit `bra
 Font Awesome tags many icons with more than one category, so the same icon can appear in several files.
 
 You can search for icons here: [https://fontawesome.com/search?ic=free&s=solid](https://fontawesome.com/search?ic=free&s=solid) then narrow down using the categories in their navigation. Change `s=solid` to `s=regular` or `s=brands` for the other styles.
+
+## Multisite note
+
+Users without the `unfiltered_html` capability (everyone except super admins on a multisite network) import through GenerateBlocks Pro's SVG allowlist. It removes `preserveAspectRatio` and lowercases `viewBox`. Neither affects the icons: browsers restore `viewBox` for inline SVG, and without `preserveAspectRatio="none"` the icon keeps its proportions instead of stretching. `fill="currentColor"` is kept, so the colour setting still works. On a single site, administrators are not affected.
