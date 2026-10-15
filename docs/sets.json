@@ -3,6 +3,180 @@
  "branch": "main",
  "sets": [
   {
+   "folder": "Bootstrap",
+   "name": "Bootstrap Icons 1.13.2",
+   "author": "The Bootstrap Authors",
+   "license": "MIT",
+   "licenseUrl": "https://github.com/twbs/icons/blob/main/LICENSE.md",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/twbs/icons"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://icons.getbootstrap.com"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are rebuilt from the Iconify icon bodies. Outline and filled icons share one style; filled names contain fill.",
+   "readme": "Bootstrap/README.md",
+   "styles": [
+    {
+     "name": "Bootstrap Icons",
+     "folder": "Bootstrap Icons",
+     "files": [
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Alerts & Status).json",
+       "group": "Bootstrap Icons (Alerts & Status)",
+       "count": 66
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Apps).json",
+       "group": "Bootstrap Icons (Apps)",
+       "count": 17
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Arrows).json",
+       "group": "Bootstrap Icons (Arrows)",
+       "count": 125
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Badges).json",
+       "group": "Bootstrap Icons (Badges)",
+       "count": 38
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Brand).json",
+       "group": "Bootstrap Icons (Brand)",
+       "count": 85
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Buildings).json",
+       "group": "Bootstrap Icons (Buildings)",
+       "count": 24
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Commerce).json",
+       "group": "Bootstrap Icons (Commerce)",
+       "count": 57
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Communications).json",
+       "group": "Bootstrap Icons (Communications)",
+       "count": 143
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Data).json",
+       "group": "Bootstrap Icons (Data)",
+       "count": 12
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Date & Time).json",
+       "group": "Bootstrap Icons (Date & Time)",
+       "count": 63
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Devices).json",
+       "group": "Bootstrap Icons (Devices)",
+       "count": 149
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Emoji).json",
+       "group": "Bootstrap Icons (Emoji)",
+       "count": 42
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Entertainment).json",
+       "group": "Bootstrap Icons (Entertainment)",
+       "count": 25
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Files & Folders).json",
+       "group": "Bootstrap Icons (Files & Folders)",
+       "count": 234
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Geo).json",
+       "group": "Bootstrap Icons (Geo)",
+       "count": 24
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Graphics).json",
+       "group": "Bootstrap Icons (Graphics)",
+       "count": 72
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Layout).json",
+       "group": "Bootstrap Icons (Layout)",
+       "count": 26
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Media).json",
+       "group": "Bootstrap Icons (Media)",
+       "count": 96
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Medical).json",
+       "group": "Bootstrap Icons (Medical)",
+       "count": 14
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (People).json",
+       "group": "Bootstrap Icons (People)",
+       "count": 63
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Real world).json",
+       "group": "Bootstrap Icons (Real world)",
+       "count": 235
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Security).json",
+       "group": "Bootstrap Icons (Security)",
+       "count": 25
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Shapes).json",
+       "group": "Bootstrap Icons (Shapes)",
+       "count": 91
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Tools).json",
+       "group": "Bootstrap Icons (Tools)",
+       "count": 24
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Transportation).json",
+       "group": "Bootstrap Icons (Transportation)",
+       "count": 65
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Travel).json",
+       "group": "Bootstrap Icons (Travel)",
+       "count": 20
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Typography).json",
+       "group": "Bootstrap Icons (Typography)",
+       "count": 58
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (UI & Keyboard).json",
+       "group": "Bootstrap Icons (UI & Keyboard)",
+       "count": 103
+      },
+      {
+       "path": "Bootstrap/Bootstrap Icons/group-Bootstrap Icons (Weather).json",
+       "group": "Bootstrap Icons (Weather)",
+       "count": 82
+      }
+     ],
+     "count": 2078
+    }
+   ]
+  },
+  {
    "folder": "Fontawesome",
    "name": "Font Awesome Free 7.3.1",
    "author": "Fonticons, Inc.",
@@ -2527,5 +2701,5 @@
    ]
   }
  ],
- "total": 35183
+ "total": 37261
 }

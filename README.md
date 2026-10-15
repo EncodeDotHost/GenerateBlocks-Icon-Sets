@@ -23,6 +23,7 @@ The [LICENSE](LICENSE) file (GPL-3.0) covers this repository's own work: the REA
 
 Each set folder has a README with its source, license and attribution:
 
+- [Bootstrap Icons 1.13.2](Bootstrap/README.md) - MIT
 - [Font Awesome Free 7.3.1](Fontawesome/README.md) - CC BY 4.0, attribution required
 - [Heroicons 2.2.0](Heroicons/README.md) - MIT
 - [Lucide 1.57.0](Lucide/README.md) - ISC
