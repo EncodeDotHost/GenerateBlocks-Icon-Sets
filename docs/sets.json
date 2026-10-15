@@ -2261,6 +2261,237 @@
    ]
   },
   {
+   "folder": "RemixIcon",
+   "name": "Remix Icon 4.8.0",
+   "author": "Remix Design",
+   "license": "Apache 2.0",
+   "licenseUrl": "https://github.com/Remix-Design/RemixIcon/blob/v4.8.0/License",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/Remix-Design/RemixIcon/tree/v4.8.0"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://remixicon.com"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. Version 4.8.0 is the last Apache 2.0 release; later versions use a different license and are not included. Editor icons have no fill version and are in Line only.",
+   "readme": "RemixIcon/README.md",
+   "styles": [
+    {
+     "name": "Line",
+     "folder": "Line",
+     "files": [
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Arrows) (Line).json",
+       "group": "Remix Icon (Arrows) (Line)",
+       "count": 89
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Buildings) (Line).json",
+       "group": "Remix Icon (Buildings) (Line)",
+       "count": 31
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Business) (Line).json",
+       "group": "Remix Icon (Business) (Line)",
+       "count": 109
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Communication) (Line).json",
+       "group": "Remix Icon (Communication) (Line)",
+       "count": 46
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Design) (Line).json",
+       "group": "Remix Icon (Design) (Line)",
+       "count": 116
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Development) (Line).json",
+       "group": "Remix Icon (Development) (Line)",
+       "count": 33
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Device) (Line).json",
+       "group": "Remix Icon (Device) (Line)",
+       "count": 93
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Document) (Line).json",
+       "group": "Remix Icon (Document) (Line)",
+       "count": 120
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Editor) (Line).json",
+       "group": "Remix Icon (Editor) (Line)",
+       "count": 150
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Finance) (Line).json",
+       "group": "Remix Icon (Finance) (Line)",
+       "count": 86
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Food) (Line).json",
+       "group": "Remix Icon (Food) (Line)",
+       "count": 16
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Game & Sports) (Line).json",
+       "group": "Remix Icon (Game & Sports) (Line)",
+       "count": 25
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Health & Medical) (Line).json",
+       "group": "Remix Icon (Health & Medical) (Line)",
+       "count": 41
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Logos) (Line).json",
+       "group": "Remix Icon (Logos) (Line)",
+       "count": 142
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Map) (Line).json",
+       "group": "Remix Icon (Map) (Line)",
+       "count": 85
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Media) (Line).json",
+       "group": "Remix Icon (Media) (Line)",
+       "count": 148
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Others) (Line).json",
+       "group": "Remix Icon (Others) (Line)",
+       "count": 58
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (System) (Line).json",
+       "group": "Remix Icon (System) (Line)",
+       "count": 174
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (User & Faces) (Line).json",
+       "group": "Remix Icon (User & Faces) (Line)",
+       "count": 66
+      },
+      {
+       "path": "RemixIcon/Line/group-Remix Icon (Weather) (Line).json",
+       "group": "Remix Icon (Weather) (Line)",
+       "count": 41
+      }
+     ],
+     "count": 1669
+    },
+    {
+     "name": "Fill",
+     "folder": "Fill",
+     "files": [
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Arrows) (Fill).json",
+       "group": "Remix Icon (Arrows) (Fill)",
+       "count": 89
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Buildings) (Fill).json",
+       "group": "Remix Icon (Buildings) (Fill)",
+       "count": 31
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Business) (Fill).json",
+       "group": "Remix Icon (Business) (Fill)",
+       "count": 109
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Communication) (Fill).json",
+       "group": "Remix Icon (Communication) (Fill)",
+       "count": 46
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Design) (Fill).json",
+       "group": "Remix Icon (Design) (Fill)",
+       "count": 116
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Development) (Fill).json",
+       "group": "Remix Icon (Development) (Fill)",
+       "count": 33
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Device) (Fill).json",
+       "group": "Remix Icon (Device) (Fill)",
+       "count": 93
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Document) (Fill).json",
+       "group": "Remix Icon (Document) (Fill)",
+       "count": 120
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Finance) (Fill).json",
+       "group": "Remix Icon (Finance) (Fill)",
+       "count": 86
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Food) (Fill).json",
+       "group": "Remix Icon (Food) (Fill)",
+       "count": 16
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Game & Sports) (Fill).json",
+       "group": "Remix Icon (Game & Sports) (Fill)",
+       "count": 25
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Health & Medical) (Fill).json",
+       "group": "Remix Icon (Health & Medical) (Fill)",
+       "count": 41
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Logos) (Fill).json",
+       "group": "Remix Icon (Logos) (Fill)",
+       "count": 142
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Map) (Fill).json",
+       "group": "Remix Icon (Map) (Fill)",
+       "count": 85
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Media) (Fill).json",
+       "group": "Remix Icon (Media) (Fill)",
+       "count": 148
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Others) (Fill).json",
+       "group": "Remix Icon (Others) (Fill)",
+       "count": 58
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (System) (Fill).json",
+       "group": "Remix Icon (System) (Fill)",
+       "count": 174
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (User & Faces) (Fill).json",
+       "group": "Remix Icon (User & Faces) (Fill)",
+       "count": 66
+      },
+      {
+       "path": "RemixIcon/Fill/group-Remix Icon (Weather) (Fill).json",
+       "group": "Remix Icon (Weather) (Fill)",
+       "count": 41
+      }
+     ],
+     "count": 1519
+    }
+   ]
+  },
+  {
    "folder": "Tabler",
    "name": "Tabler Icons 3.49.0",
    "author": "Paweł Kuna",
@@ -2701,5 +2932,5 @@
    ]
   }
  ],
- "total": 37261
+ "total": 40449
 }

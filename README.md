@@ -29,5 +29,6 @@ Each set folder has a README with its source, license and attribution:
 - [Lucide 1.57.0](Lucide/README.md) - ISC
 - [Material Symbols](MaterialSymbols/README.md) - Apache 2.0
 - [Phosphor Icons 2.1.1](Phosphor/README.md) - MIT
+- [Remix Icon 4.8.0](RemixIcon/README.md) - Apache 2.0
 - [Tabler Icons 3.49.0](Tabler/README.md) - MIT
 - [Zondicons](Zondicons/README.md) - Public Domain

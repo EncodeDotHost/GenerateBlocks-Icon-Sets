@@ -1,0 +1,6 @@
+# Remix Icon: name suffix -> style. The Iconify JSON has "line" and "fill"
+# but no default. The 150 Editor icons with no suffix (bold, italic, h-1, ...)
+# are style-neutral; they go in Line.
+"": Line
+line: Line
+fill: Fill
