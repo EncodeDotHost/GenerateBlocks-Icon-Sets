@@ -4,7 +4,7 @@ Tags: generateblocks, icons, svg, asset library
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -70,6 +70,10 @@ The plugin deletes its own settings. The installed icon groups stay in the Asset
 Add `--user=<admin>` so the SVGs are stored unchanged.
 
 == Changelog ==
+
+= 1.1.0 =
+* Rename the plugin to Icon Sets for GenerateBlocks. The folder, main file, text domain, admin page slug and release asset are now icon-sets-for-generateblocks. Options, constants, the WP-CLI command and the REST namespace are unchanged.
+* WordPress treats this as a new plugin. Delete GenerateBlocks Icon Sets 1.0.0 and install this zip. The icon groups stay in the GenerateBlocks Pro Asset Library, but deleting the old plugin removes its install records and settings. On the Icon Sets page the groups then show as not installed by the plugin. Install them again to put them back under the plugin's control.
 
 = 1.0.0 =
 * First release.

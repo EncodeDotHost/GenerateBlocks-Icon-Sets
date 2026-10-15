@@ -3,7 +3,7 @@
  * Plugin Name: Icon Sets for GenerateBlocks
  * Plugin URI: https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks
  * Description: Installs ready-made icon groups from the Icon Sets for GenerateBlocks repository into the GenerateBlocks Pro Asset Library.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires at least: 6.7
  * Requires PHP: 7.4
  * Author: EncodeDotHost
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'GBIS_VERSION', '1.0.0' );
+define( 'GBIS_VERSION', '1.1.0' );
 define( 'GBIS_FILE', __FILE__ );
 define( 'GBIS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GBIS_URL', plugin_dir_url( __FILE__ ) );
