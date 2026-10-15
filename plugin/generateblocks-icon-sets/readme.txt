@@ -1,4 +1,4 @@
-=== GenerateBlocks Icon Sets ===
+=== Icon Sets for GenerateBlocks ===
 Contributors: encodedothost
 Tags: generateblocks, icons, svg, asset library
 Requires at least: 6.7
@@ -8,11 +8,11 @@ Stable tag: 1.0.0
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
-Installs icon groups from the GenerateBlocks Icon Sets repository into the GenerateBlocks Pro Asset Library.
+Installs icon groups from the Icon Sets for GenerateBlocks repository into the GenerateBlocks Pro Asset Library.
 
 == Description ==
 
-The GenerateBlocks Icon Sets repository converts open-source icon sets into GenerateBlocks Pro group files. This plugin installs those groups for you. You do not have to download and import each file by hand.
+The Icon Sets for GenerateBlocks repository converts open-source icon sets into GenerateBlocks Pro group files. This plugin installs those groups for you. You do not have to download and import each file by hand.
 
 * Browse every set, style and group with its license and icon count.
 * Install, reinstall, update and remove groups one at a time or in bulk.
@@ -22,11 +22,11 @@ The GenerateBlocks Icon Sets repository converts open-source icon sets into Gene
 
 The plugin needs GenerateBlocks and GenerateBlocks Pro. The Asset Library is a GenerateBlocks Pro feature.
 
-Preview the icons: https://encodedothost.github.io/GenerateBlocks-Icon-Sets/
+Preview the icons: https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/
 
 = Where the data comes from =
 
-The plugin reads `docs/sets.json` and the `group-*.json` files from https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets over raw.githubusercontent.com. It caches the set list for 12 hours. It checks api.github.com for plugin updates twice a day. It sends no other data.
+The plugin reads `docs/sets.json` and the `group-*.json` files from https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks over raw.githubusercontent.com. It caches the set list for 12 hours. It checks api.github.com for plugin updates twice a day. It sends no other data.
 
 = Licenses =
 
@@ -34,7 +34,7 @@ The plugin is GPL-3.0-or-later. Each icon set keeps its own license. The admin p
 
 == Installation ==
 
-1. Download `generateblocks-icon-sets.zip` from https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets/releases/latest
+1. Download `generateblocks-icon-sets.zip` from https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest
 2. Go to Plugins > Add New > Upload Plugin and upload the zip. Activate it.
 3. Go to GenerateBlocks > Icon Sets.
 4. Open a set, select the groups you want and click Install selected.

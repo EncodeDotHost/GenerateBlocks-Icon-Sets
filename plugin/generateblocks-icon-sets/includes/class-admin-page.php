@@ -2,7 +2,7 @@
 /**
  * Admin page under the GenerateBlocks menu.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -113,7 +113,7 @@ class GBIS_Admin_Page {
 				'namespace'       => GBIS_Rest::NS,
 				'settings'        => gbis_get_settings(),
 				'assetLibraryUrl' => admin_url( 'admin.php?page=generateblocks-asset-library' ),
-				'galleryUrl'      => 'https://encodedothost.github.io/GenerateBlocks-Icon-Sets/',
+				'galleryUrl'      => 'https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/',
 				'unfilteredHtml'  => current_user_can( 'unfiltered_html' ),
 			)
 		);
@@ -128,8 +128,8 @@ class GBIS_Admin_Page {
 		<div class="wrap gblocks-dashboard-wrap gbis-wrap">
 			<h1><?php esc_html_e( 'Icon Sets', 'generateblocks-icon-sets' ); ?></h1>
 			<p>
-				<?php esc_html_e( 'Install icon groups from the GenerateBlocks Icon Sets repository into the GenerateBlocks Pro Asset Library.', 'generateblocks-icon-sets' ); ?>
-				<a href="https://encodedothost.github.io/GenerateBlocks-Icon-Sets/" target="_blank" rel="noopener"><?php esc_html_e( 'Preview the icons in the gallery', 'generateblocks-icon-sets' ); ?></a>.
+				<?php esc_html_e( 'Install icon groups from the Icon Sets for GenerateBlocks repository into the GenerateBlocks Pro Asset Library.', 'generateblocks-icon-sets' ); ?>
+				<a href="https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/" target="_blank" rel="noopener"><?php esc_html_e( 'Preview the icons in the gallery', 'generateblocks-icon-sets' ); ?></a>.
 			</p>
 
 			<div class="notice notice-warning inline">

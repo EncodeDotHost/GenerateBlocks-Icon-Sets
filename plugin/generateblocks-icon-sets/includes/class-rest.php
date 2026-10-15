@@ -2,7 +2,7 @@
 /**
  * REST routes used by the admin page.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -6,7 +6,7 @@
  * (5.8+) skips wordpress.org for this plugin and asks the
  * update_plugins_github.com filter instead.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -153,7 +153,7 @@ class GBIS_Updater {
 		}
 
 		return (object) array(
-			'name'          => 'GenerateBlocks Icon Sets',
+			'name'          => 'Icon Sets for GenerateBlocks',
 			'slug'          => GBIS_SLUG,
 			'version'       => $release['version'],
 			'author'        => '<a href="https://github.com/EncodeDotHost">EncodeDotHost</a>',

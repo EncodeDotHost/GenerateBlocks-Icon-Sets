@@ -7,7 +7,7 @@
  * { group, group_id, icons: [ { id, name, icon } ] }. The id, group_id and
  * sanitising rules below copy includes/class-rest.php::update_icon_settings().
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

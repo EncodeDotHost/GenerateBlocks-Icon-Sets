@@ -1,4 +1,4 @@
-/* GenerateBlocks Icon Sets admin page. Plain ES2017, no build step. */
+/* Icon Sets for GenerateBlocks admin page. Plain ES2017, no build step. */
 ( function () {
 	'use strict';
 

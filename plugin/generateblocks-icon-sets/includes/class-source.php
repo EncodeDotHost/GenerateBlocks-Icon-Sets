@@ -2,7 +2,7 @@
 /**
  * Fetches the gallery manifest and group files from GitHub.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

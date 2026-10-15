@@ -2,7 +2,7 @@
 /**
  * WP-CLI command: wp gb-icon-sets.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Install icon groups from the GenerateBlocks Icon Sets repository into the
+ * Install icon groups from the Icon Sets for GenerateBlocks repository into the
  * GenerateBlocks Pro Asset Library.
  *
  * Run as an administrator (--user=<admin>) so the SVGs are stored unchanged.

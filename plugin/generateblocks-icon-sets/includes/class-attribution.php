@@ -2,7 +2,7 @@
 /**
  * Prints the attribution text that some icon licenses require.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

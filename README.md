@@ -1,11 +1,11 @@
-# GenerateBlocks-Icon-Sets
+# Icon Sets for GenerateBlocks
 A collection of icon sets for the GenerateBlocks Pro WordPress Plugin
 
 ## Install with the plugin
 
-The GenerateBlocks Icon Sets plugin installs the groups for you, straight from this repository.
+The Icon Sets for GenerateBlocks plugin installs the groups for you, straight from this repository.
 
-1. Download `generateblocks-icon-sets.zip` from the [latest release](https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets/releases/latest).
+1. Download `generateblocks-icon-sets.zip` from the [latest release](https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest).
 2. In WordPress, go to Plugins > Add New > Upload Plugin, upload the zip and activate it.
 3. Go to GenerateBlocks > Icon Sets, select the groups you want and click Install selected.
 
@@ -14,7 +14,7 @@ It also has a WP-CLI command, `wp gb-icon-sets`. The plugin source is in [plugin
 
 ## How to use (manual import)
 
-The [help page](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/help.html) explains how to download a group file and import it.
+The [help page](https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/help.html) explains how to download a group file and import it.
 In short: download a `group-*.json` file, then in WordPress go to GenerateBlocks > Asset Library > Icons and click Import.
 The official [Asset Library guide](https://learn.generatepress.com/blocks/block-guide/getting-started-generateblocks/generateblocks-pro/asset-library/) has screenshots.
 
@@ -28,7 +28,7 @@ You pay the same price. The icon sets in this repository are free and do not dep
 
 ## Browse the icons
 
-[https://encodedothost.github.io/GenerateBlocks-Icon-Sets/](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/) shows every group in a searchable gallery, with the license and links for each set.
+[https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/](https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/) shows every group in a searchable gallery, with the license and links for each set.
 
 The [LICENSE](LICENSE) file (GPL-3.0) covers this repository's own work: the README files, the gallery in `docs/`, the category mappings and the plugin in `plugin/`. It does not cover the icons. Each icon set keeps its upstream license, listed below.
 

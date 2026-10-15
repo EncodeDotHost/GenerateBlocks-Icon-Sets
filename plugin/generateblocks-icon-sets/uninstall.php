@@ -6,7 +6,7 @@
  * (option generateblocks_svg_icons). Remove them on the Icon Sets page
  * before you uninstall if you do not want them.
  *
- * @package GenerateBlocks_Icon_Sets
+ * @package Icon_Sets_for_GenerateBlocks
  */
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {

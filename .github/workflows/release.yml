@@ -45,5 +45,5 @@ jobs:
           if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
             gh release upload "$GITHUB_REF_NAME" generateblocks-icon-sets.zip --clobber
           else
-            gh release create "$GITHUB_REF_NAME" generateblocks-icon-sets.zip --title "GenerateBlocks Icon Sets $GITHUB_REF_NAME" --generate-notes
+            gh release create "$GITHUB_REF_NAME" generateblocks-icon-sets.zip --title "Icon Sets for GenerateBlocks $GITHUB_REF_NAME" --generate-notes
           fi
