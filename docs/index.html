@@ -8,12 +8,12 @@
 <style>
   :root {
     --bg: #ffffff; --fg: #1b1f24; --muted: #59636e; --line: #d9dee3;
-    --card: #f6f8fa; --accent: #0969da; --hover: #e6f0fb;
+    --card: #f6f8fa; --accent: #0969da;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e; --line: #30363d;
-      --card: #161b22; --accent: #58a6ff; --hover: #1f2a37;
+      --card: #161b22; --accent: #58a6ff;
     }
   }
   * { box-sizing: border-box; }
@@ -31,23 +31,22 @@
   .setinfo { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; font-size: 0.9rem; }
   .setinfo .links a { margin-right: 12px; }
   .setinfo code { display: block; margin-top: 8px; padding: 8px; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; font-size: 0.8rem; white-space: pre-wrap; word-break: break-word; }
-  .status { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; min-height: 1.5em; }
+  .status { color: var(--muted); font-size: 0.9rem; min-height: 1.5em; }
+  .download { margin: 4px 0 12px; font-size: 0.9rem; }
+  .download a { margin-right: 16px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
-  .cell { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 4px 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); cursor: pointer; }
-  .cell:hover { background: var(--hover); }
+  .cell { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 4px 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); }
   .cell svg { width: 32px; height: 32px; display: block; }
   .cell .n { font-size: 0.7rem; color: var(--muted); text-align: center; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .more { margin: 16px 0; text-align: center; }
   button { font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 6px 14px; cursor: pointer; }
   footer { padding: 32px 16px; color: var(--muted); font-size: 0.85rem; }
-  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 6px; font-size: 0.85rem; opacity: 0; transition: opacity .2s; pointer-events: none; }
-  .toast.show { opacity: 1; }
 </style>
 </head>
 <body>
 <header>
   <h1>GenerateBlocks Icon Sets <small id="total"></small></h1>
-  <p>Icon group import files for GenerateBlocks Pro. Pick a set, a style and a group. Click an icon to copy its name.
+  <p>Icon group import files for GenerateBlocks Pro. Pick a set, a style and a group, then download the group file and import it in GenerateBlocks Pro.
      Repository: <a href="https://github.com/EncodeDotHost/GenerateBlocks-Icon-Sets">EncodeDotHost/GenerateBlocks-Icon-Sets</a></p>
   <div class="controls">
     <label>Set <select id="set"></select></label>
@@ -59,6 +58,7 @@
 </header>
 <main>
   <div class="status" id="status"></div>
+  <div class="download" id="download"></div>
   <div class="grid" id="grid"></div>
   <div class="more" id="more"></div>
 </main>
@@ -66,7 +66,6 @@
   Each set folder in the repository has a README with its full license text and attribution.
   The Font Awesome set is CC BY 4.0: the attribution text shown above is included on this page because it displays those icons.
 </footer>
-<div class="toast" id="toast"></div>
 <script>
 (function () {
   'use strict';
@@ -79,7 +78,6 @@
   function opt(sel, items, val, label) {
     sel.innerHTML = items.map((it, i) => `<option value="${esc(String(val(it, i)))}">${esc(label(it))}</option>`).join('');
   }
-  function toast(msg) { const t = $('toast'); t.textContent = msg; t.classList.add('show'); setTimeout(() => t.classList.remove('show'), 1200); }
 
   function selSet() { return manifest.sets[+$('set').value]; }
   function selStyle() { return selSet().styles[+$('style').value]; }
@@ -98,8 +96,9 @@
     if (!cache.has(f.path)) {
       const r = await fetch(base + f.path.split('/').map(encodeURIComponent).join('/'));
       if (!r.ok) throw new Error(`${r.status} ${f.path}`);
-      const d = await r.json();
-      cache.set(f.path, d.assets.map(a => ({ name: a.name, icon: a.icon, group: d.group })));
+      const text = await r.text();
+      const d = JSON.parse(text);
+      cache.set(f.path, { text, assets: d.assets.map(a => ({ name: a.name, icon: a.icon, group: d.group })) });
     }
     return cache.get(f.path);
   }
@@ -112,7 +111,6 @@
       const c = document.createElement('div');
       c.className = 'cell';
       c.title = a.name + '\n' + a.group;
-      c.dataset.name = a.name;
       c.innerHTML = a.icon + `<div class="n">${esc(a.name)}</div>`;
       frag.appendChild(c);
     }
@@ -140,13 +138,29 @@
     try {
       const parts = await Promise.all(files.map(loadFile));
       if (my !== token) return;
-      let list = parts.flat();
+      let list = parts.map(p => p.assets).flat();
       let label = gi === 'all' || q ? `in ${selSet().name} / ${st.name}` : `in ${st.files[+gi].group}`;
       if (q) { list = list.filter(a => a.name.includes(q)); label = `matching "${q}" ${label}`; }
       draw(list, label);
+      renderDownload(gi, q, st, files);
     } catch (e) {
       if (my === token) $('status').textContent = 'Could not load: ' + e.message;
     }
+  }
+
+  let blobUrl = null;
+  function renderDownload(gi, q, st, files) {
+    if (blobUrl) { URL.revokeObjectURL(blobUrl); blobUrl = null; }
+    const s = selSet();
+    const folder = s.folder + (st.folder ? '/' + st.folder : '');
+    let h = `<a href="https://github.com/${manifest.repo}/tree/${manifest.branch}/${esc(folder)}">All ${esc(st.name)} files on GitHub</a>`;
+    if (!q && gi !== 'all') {
+      const f = files[0];
+      const fname = f.path.split('/').pop();
+      blobUrl = URL.createObjectURL(new Blob([cache.get(f.path).text], { type: 'application/json' }));
+      h = `<a href="${blobUrl}" download="${esc(fname)}">Download ${esc(fname)}</a>` + h;
+    }
+    $('download').innerHTML = h;
   }
 
   function fillStyles() {
@@ -166,10 +180,6 @@
   $('style').onchange = fillGroups;
   $('group').onchange = update;
   let t; $('q').oninput = () => { clearTimeout(t); t = setTimeout(update, 200); };
-  $('grid').onclick = e => {
-    const c = e.target.closest('.cell'); if (!c) return;
-    navigator.clipboard && navigator.clipboard.writeText(c.dataset.name).then(() => toast('Copied ' + c.dataset.name));
-  };
 
   fetch('sets.json').then(r => r.json()).then(m => {
     manifest = m;
