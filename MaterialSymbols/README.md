@@ -9,7 +9,7 @@ Browse icons: [https://fonts.google.com/icons](https://fonts.google.com/icons)
 ## License
 
 COLLECTION: Material Symbols
-LICENSE: Apache License 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+LICENSE: Apache License 2.0 - a full copy is in [LICENSE](LICENSE) in this folder, as the license requires, and at [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
 AUTHOR: Google LLC
 
 Copyright Google LLC. Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

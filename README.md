@@ -19,6 +19,8 @@ You pay the same price. The icon sets in this repository are free and do not dep
 
 [https://encodedothost.github.io/GenerateBlocks-Icon-Sets/](https://encodedothost.github.io/GenerateBlocks-Icon-Sets/) shows every group in a searchable gallery, with the license and links for each set.
 
+The [LICENSE](LICENSE) file (GPL-3.0) covers this repository's own work: the README files, the gallery in `docs/` and the category mappings. It does not cover the icons. Each icon set keeps its upstream license, listed below.
+
 Each set folder has a README with its source, license and attribution:
 
 - [Font Awesome Free 7.3.1](Fontawesome/README.md) - CC BY 4.0, attribution required

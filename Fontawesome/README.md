@@ -12,6 +12,12 @@ The easiest way to do this is to create a Element and output the text under the 
 
 The group imports have been built from the Font Awesome Free 7.3.1 svg icons which have been broken down into their respective categories.
 
+### Modifications
+
+CC BY 4.0 asks us to state any changes to the icons. The SVGs in these group files differ from the Font Awesome originals in one way:
+
+- `preserveAspectRatio="none"` is added to the `<svg>` tag. The paths, `viewBox` and `fill="currentColor"` are unchanged.
+
 ## Layout
 
 - `Solid/` - one file per category. Group name `FontAwesome (Free) (<Category>)`.
