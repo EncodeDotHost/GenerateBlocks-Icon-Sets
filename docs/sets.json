@@ -1,0 +1,1628 @@
+{
+ "repo": "EncodeDotHost/GenerateBlocks-Icon-Sets",
+ "branch": "main",
+ "sets": [
+  {
+   "folder": "Fontawesome",
+   "name": "Font Awesome Free 7.3.1",
+   "author": "Fonticons, Inc.",
+   "license": "CC BY 4.0 (icons)",
+   "licenseUrl": "https://fontawesome.com/license/free",
+   "links": [
+    {
+     "label": "Website",
+     "url": "https://fontawesome.com"
+    },
+    {
+     "label": "Search icons",
+     "url": "https://fontawesome.com/search?ic=free&s=solid"
+    }
+   ],
+   "attribution": "Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.",
+   "note": "Attribution is required on any page that shows these icons. Output the attribution text in wp_head.",
+   "readme": "Fontawesome/README.md",
+   "styles": [
+    {
+     "name": "Solid",
+     "folder": "Solid",
+     "files": [
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Accessibility).json",
+       "group": "FontAwesome (Free) (Accessibility)",
+       "count": 23
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Alert).json",
+       "group": "FontAwesome (Free) (Alert)",
+       "count": 10
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Alphabet).json",
+       "group": "FontAwesome (Free) (Alphabet)",
+       "count": 29
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Animals).json",
+       "group": "FontAwesome (Free) (Animals)",
+       "count": 25
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Arrows).json",
+       "group": "FontAwesome (Free) (Arrows)",
+       "count": 119
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Astronomy).json",
+       "group": "FontAwesome (Free) (Astronomy)",
+       "count": 20
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Automotive).json",
+       "group": "FontAwesome (Free) (Automotive)",
+       "count": 29
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Buildings).json",
+       "group": "FontAwesome (Free) (Buildings)",
+       "count": 74
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Business).json",
+       "group": "FontAwesome (Free) (Business)",
+       "count": 98
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Camping).json",
+       "group": "FontAwesome (Free) (Camping)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Charity).json",
+       "group": "FontAwesome (Free) (Charity)",
+       "count": 19
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Charts + Diagrams).json",
+       "group": "FontAwesome (Free) (Charts + Diagrams)",
+       "count": 18
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Childhood).json",
+       "group": "FontAwesome (Free) (Childhood)",
+       "count": 25
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Clothing + Fashion).json",
+       "group": "FontAwesome (Free) (Clothing + Fashion)",
+       "count": 12
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Coding).json",
+       "group": "FontAwesome (Free) (Coding)",
+       "count": 50
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Communication).json",
+       "group": "FontAwesome (Free) (Communication)",
+       "count": 56
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Connectivity).json",
+       "group": "FontAwesome (Free) (Connectivity)",
+       "count": 13
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Construction).json",
+       "group": "FontAwesome (Free) (Construction)",
+       "count": 30
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Design).json",
+       "group": "FontAwesome (Free) (Design)",
+       "count": 54
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Devices + Hardware).json",
+       "group": "FontAwesome (Free) (Devices + Hardware)",
+       "count": 44
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Disaster + Crisis).json",
+       "group": "FontAwesome (Free) (Disaster + Crisis)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Editing).json",
+       "group": "FontAwesome (Free) (Editing)",
+       "count": 47
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Education).json",
+       "group": "FontAwesome (Free) (Education)",
+       "count": 24
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Emoji).json",
+       "group": "FontAwesome (Free) (Emoji)",
+       "count": 36
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Energy).json",
+       "group": "FontAwesome (Free) (Energy)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Files).json",
+       "group": "FontAwesome (Free) (Files)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Film + Video).json",
+       "group": "FontAwesome (Free) (Film + Video)",
+       "count": 22
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Food + Beverage).json",
+       "group": "FontAwesome (Free) (Food + Beverage)",
+       "count": 48
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Fruits + Vegetables).json",
+       "group": "FontAwesome (Free) (Fruits + Vegetables)",
+       "count": 6
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Gaming).json",
+       "group": "FontAwesome (Free) (Gaming)",
+       "count": 35
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Genders).json",
+       "group": "FontAwesome (Free) (Genders)",
+       "count": 15
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Halloween).json",
+       "group": "FontAwesome (Free) (Halloween)",
+       "count": 13
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Hands).json",
+       "group": "FontAwesome (Free) (Hands)",
+       "count": 33
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Holidays).json",
+       "group": "FontAwesome (Free) (Holidays)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Household).json",
+       "group": "FontAwesome (Free) (Household)",
+       "count": 48
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Humanitarian).json",
+       "group": "FontAwesome (Free) (Humanitarian)",
+       "count": 334
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Logistics).json",
+       "group": "FontAwesome (Free) (Logistics)",
+       "count": 58
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Maps).json",
+       "group": "FontAwesome (Free) (Maps)",
+       "count": 139
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Maritime).json",
+       "group": "FontAwesome (Free) (Maritime)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Marketing).json",
+       "group": "FontAwesome (Free) (Marketing)",
+       "count": 24
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Mathematics).json",
+       "group": "FontAwesome (Free) (Mathematics)",
+       "count": 23
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Media Playback).json",
+       "group": "FontAwesome (Free) (Media Playback)",
+       "count": 39
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Medical + Health).json",
+       "group": "FontAwesome (Free) (Medical + Health)",
+       "count": 113
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Money).json",
+       "group": "FontAwesome (Free) (Money)",
+       "count": 68
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Moving).json",
+       "group": "FontAwesome (Free) (Moving)",
+       "count": 16
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Music + Audio).json",
+       "group": "FontAwesome (Free) (Music + Audio)",
+       "count": 20
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Nature).json",
+       "group": "FontAwesome (Free) (Nature)",
+       "count": 28
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Numbers).json",
+       "group": "FontAwesome (Free) (Numbers)",
+       "count": 10
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Photos + Images).json",
+       "group": "FontAwesome (Free) (Photos + Images)",
+       "count": 24
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Political).json",
+       "group": "FontAwesome (Free) (Political)",
+       "count": 20
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Punctuation + Symbols).json",
+       "group": "FontAwesome (Free) (Punctuation + Symbols)",
+       "count": 32
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Religion).json",
+       "group": "FontAwesome (Free) (Religion)",
+       "count": 44
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Science Fiction).json",
+       "group": "FontAwesome (Free) (Science Fiction)",
+       "count": 8
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Science).json",
+       "group": "FontAwesome (Free) (Science)",
+       "count": 33
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Security).json",
+       "group": "FontAwesome (Free) (Security)",
+       "count": 61
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Shapes).json",
+       "group": "FontAwesome (Free) (Shapes)",
+       "count": 30
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Shopping).json",
+       "group": "FontAwesome (Free) (Shopping)",
+       "count": 39
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Social).json",
+       "group": "FontAwesome (Free) (Social)",
+       "count": 32
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Spinners).json",
+       "group": "FontAwesome (Free) (Spinners)",
+       "count": 28
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Sports + Fitness).json",
+       "group": "FontAwesome (Free) (Sports + Fitness)",
+       "count": 33
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Text Formatting).json",
+       "group": "FontAwesome (Free) (Text Formatting)",
+       "count": 43
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Time).json",
+       "group": "FontAwesome (Free) (Time)",
+       "count": 18
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Toggle).json",
+       "group": "FontAwesome (Free) (Toggle)",
+       "count": 16
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Transportation).json",
+       "group": "FontAwesome (Free) (Transportation)",
+       "count": 51
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Travel + Hotel).json",
+       "group": "FontAwesome (Free) (Travel + Hotel)",
+       "count": 75
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Users + People).json",
+       "group": "FontAwesome (Free) (Users + People)",
+       "count": 118
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Weather).json",
+       "group": "FontAwesome (Free) (Weather)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Solid/group-FontAwesome (Free) (Writing).json",
+       "group": "FontAwesome (Free) (Writing)",
+       "count": 31
+      }
+     ],
+     "count": 2896
+    },
+    {
+     "name": "Regular",
+     "folder": "Regular",
+     "files": [
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Accessibility) (Regular).json",
+       "group": "FontAwesome (Free) (Accessibility) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Alert) (Regular).json",
+       "group": "FontAwesome (Free) (Alert) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Alphabet) (Regular).json",
+       "group": "FontAwesome (Free) (Alphabet) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Arrows) (Regular).json",
+       "group": "FontAwesome (Free) (Arrows) (Regular)",
+       "count": 9
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Astronomy) (Regular).json",
+       "group": "FontAwesome (Free) (Astronomy) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Automotive) (Regular).json",
+       "group": "FontAwesome (Free) (Automotive) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Buildings) (Regular).json",
+       "group": "FontAwesome (Free) (Buildings) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Business) (Regular).json",
+       "group": "FontAwesome (Free) (Business) (Regular)",
+       "count": 20
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Camping) (Regular).json",
+       "group": "FontAwesome (Free) (Camping) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Charity) (Regular).json",
+       "group": "FontAwesome (Free) (Charity) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Charts + Diagrams) (Regular).json",
+       "group": "FontAwesome (Free) (Charts + Diagrams) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Coding) (Regular).json",
+       "group": "FontAwesome (Free) (Coding) (Regular)",
+       "count": 11
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Communication) (Regular).json",
+       "group": "FontAwesome (Free) (Communication) (Regular)",
+       "count": 12
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Connectivity) (Regular).json",
+       "group": "FontAwesome (Free) (Connectivity) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Design) (Regular).json",
+       "group": "FontAwesome (Free) (Design) (Regular)",
+       "count": 10
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Devices + Hardware) (Regular).json",
+       "group": "FontAwesome (Free) (Devices + Hardware) (Regular)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Disaster + Crisis) (Regular).json",
+       "group": "FontAwesome (Free) (Disaster + Crisis) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Editing) (Regular).json",
+       "group": "FontAwesome (Free) (Editing) (Regular)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Education) (Regular).json",
+       "group": "FontAwesome (Free) (Education) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Emoji) (Regular).json",
+       "group": "FontAwesome (Free) (Emoji) (Regular)",
+       "count": 36
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Energy) (Regular).json",
+       "group": "FontAwesome (Free) (Energy) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Files) (Regular).json",
+       "group": "FontAwesome (Free) (Files) (Regular)",
+       "count": 19
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Film + Video) (Regular).json",
+       "group": "FontAwesome (Free) (Film + Video) (Regular)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Food + Beverage) (Regular).json",
+       "group": "FontAwesome (Free) (Food + Beverage) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Fruits + Vegetables) (Regular).json",
+       "group": "FontAwesome (Free) (Fruits + Vegetables) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Gaming) (Regular).json",
+       "group": "FontAwesome (Free) (Gaming) (Regular)",
+       "count": 8
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Hands) (Regular).json",
+       "group": "FontAwesome (Free) (Hands) (Regular)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Holidays) (Regular).json",
+       "group": "FontAwesome (Free) (Holidays) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Household) (Regular).json",
+       "group": "FontAwesome (Free) (Household) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Humanitarian) (Regular).json",
+       "group": "FontAwesome (Free) (Humanitarian) (Regular)",
+       "count": 12
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Logistics) (Regular).json",
+       "group": "FontAwesome (Free) (Logistics) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Maps) (Regular).json",
+       "group": "FontAwesome (Free) (Maps) (Regular)",
+       "count": 20
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Marketing) (Regular).json",
+       "group": "FontAwesome (Free) (Marketing) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Mathematics) (Regular).json",
+       "group": "FontAwesome (Free) (Mathematics) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Media Playback) (Regular).json",
+       "group": "FontAwesome (Free) (Media Playback) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Medical + Health) (Regular).json",
+       "group": "FontAwesome (Free) (Medical + Health) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Money) (Regular).json",
+       "group": "FontAwesome (Free) (Money) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Music + Audio) (Regular).json",
+       "group": "FontAwesome (Free) (Music + Audio) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Photos + Images) (Regular).json",
+       "group": "FontAwesome (Free) (Photos + Images) (Regular)",
+       "count": 9
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Political) (Regular).json",
+       "group": "FontAwesome (Free) (Political) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Punctuation + Symbols) (Regular).json",
+       "group": "FontAwesome (Free) (Punctuation + Symbols) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Science Fiction) (Regular).json",
+       "group": "FontAwesome (Free) (Science Fiction) (Regular)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Security) (Regular).json",
+       "group": "FontAwesome (Free) (Security) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Shapes) (Regular).json",
+       "group": "FontAwesome (Free) (Shapes) (Regular)",
+       "count": 10
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Shopping) (Regular).json",
+       "group": "FontAwesome (Free) (Shopping) (Regular)",
+       "count": 11
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Social) (Regular).json",
+       "group": "FontAwesome (Free) (Social) (Regular)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Spinners) (Regular).json",
+       "group": "FontAwesome (Free) (Spinners) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Sports + Fitness) (Regular).json",
+       "group": "FontAwesome (Free) (Sports + Fitness) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Text Formatting) (Regular).json",
+       "group": "FontAwesome (Free) (Text Formatting) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Time) (Regular).json",
+       "group": "FontAwesome (Free) (Time) (Regular)",
+       "count": 12
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Toggle) (Regular).json",
+       "group": "FontAwesome (Free) (Toggle) (Regular)",
+       "count": 6
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Transportation) (Regular).json",
+       "group": "FontAwesome (Free) (Transportation) (Regular)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Travel + Hotel) (Regular).json",
+       "group": "FontAwesome (Free) (Travel + Hotel) (Regular)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Users + People) (Regular).json",
+       "group": "FontAwesome (Free) (Users + People) (Regular)",
+       "count": 9
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Weather) (Regular).json",
+       "group": "FontAwesome (Free) (Weather) (Regular)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Regular/group-FontAwesome (Free) (Writing) (Regular).json",
+       "group": "FontAwesome (Free) (Writing) (Regular)",
+       "count": 12
+      }
+     ],
+     "count": 342
+    },
+    {
+     "name": "Brands",
+     "folder": "Brands",
+     "files": [
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Accessibility) (Brands).json",
+       "group": "FontAwesome (Free) (Accessibility) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Animals) (Brands).json",
+       "group": "FontAwesome (Free) (Animals) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Astronomy) (Brands).json",
+       "group": "FontAwesome (Free) (Astronomy) (Brands)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Automotive) (Brands).json",
+       "group": "FontAwesome (Free) (Automotive) (Brands)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Brands).json",
+       "group": "FontAwesome (Free) (Brands)",
+       "count": 572
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Business) (Brands).json",
+       "group": "FontAwesome (Free) (Business) (Brands)",
+       "count": 58
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Charity) (Brands).json",
+       "group": "FontAwesome (Free) (Charity) (Brands)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Charts + Diagrams) (Brands).json",
+       "group": "FontAwesome (Free) (Charts + Diagrams) (Brands)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Clothing + Fashion) (Brands).json",
+       "group": "FontAwesome (Free) (Clothing + Fashion) (Brands)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Coding) (Brands).json",
+       "group": "FontAwesome (Free) (Coding) (Brands)",
+       "count": 194
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Communication) (Brands).json",
+       "group": "FontAwesome (Free) (Communication) (Brands)",
+       "count": 36
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Connectivity) (Brands).json",
+       "group": "FontAwesome (Free) (Connectivity) (Brands)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Construction) (Brands).json",
+       "group": "FontAwesome (Free) (Construction) (Brands)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Design) (Brands).json",
+       "group": "FontAwesome (Free) (Design) (Brands)",
+       "count": 37
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Devices + Hardware) (Brands).json",
+       "group": "FontAwesome (Free) (Devices + Hardware) (Brands)",
+       "count": 18
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Education) (Brands).json",
+       "group": "FontAwesome (Free) (Education) (Brands)",
+       "count": 13
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Files) (Brands).json",
+       "group": "FontAwesome (Free) (Files) (Brands)",
+       "count": 14
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Film + Video) (Brands).json",
+       "group": "FontAwesome (Free) (Film + Video) (Brands)",
+       "count": 19
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Food + Beverage) (Brands).json",
+       "group": "FontAwesome (Free) (Food + Beverage) (Brands)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Gaming) (Brands).json",
+       "group": "FontAwesome (Free) (Gaming) (Brands)",
+       "count": 26
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Household) (Brands).json",
+       "group": "FontAwesome (Free) (Household) (Brands)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Logistics) (Brands).json",
+       "group": "FontAwesome (Free) (Logistics) (Brands)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Maps) (Brands).json",
+       "group": "FontAwesome (Free) (Maps) (Brands)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Marketing) (Brands).json",
+       "group": "FontAwesome (Free) (Marketing) (Brands)",
+       "count": 15
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Mathematics) (Brands).json",
+       "group": "FontAwesome (Free) (Mathematics) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Medical + Health) (Brands).json",
+       "group": "FontAwesome (Free) (Medical + Health) (Brands)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Money) (Brands).json",
+       "group": "FontAwesome (Free) (Money) (Brands)",
+       "count": 28
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Music + Audio) (Brands).json",
+       "group": "FontAwesome (Free) (Music + Audio) (Brands)",
+       "count": 16
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Nature) (Brands).json",
+       "group": "FontAwesome (Free) (Nature) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Other) (Brands).json",
+       "group": "FontAwesome (Free) (Other) (Brands)",
+       "count": 25
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Photos + Images) (Brands).json",
+       "group": "FontAwesome (Free) (Photos + Images) (Brands)",
+       "count": 16
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Political) (Brands).json",
+       "group": "FontAwesome (Free) (Political) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Religion) (Brands).json",
+       "group": "FontAwesome (Free) (Religion) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Science Fiction) (Brands).json",
+       "group": "FontAwesome (Free) (Science Fiction) (Brands)",
+       "count": 15
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Science) (Brands).json",
+       "group": "FontAwesome (Free) (Science) (Brands)",
+       "count": 13
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Security) (Brands).json",
+       "group": "FontAwesome (Free) (Security) (Brands)",
+       "count": 12
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Shopping) (Brands).json",
+       "group": "FontAwesome (Free) (Shopping) (Brands)",
+       "count": 47
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Social) (Brands).json",
+       "group": "FontAwesome (Free) (Social) (Brands)",
+       "count": 107
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Sports + Fitness) (Brands).json",
+       "group": "FontAwesome (Free) (Sports + Fitness) (Brands)",
+       "count": 2
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Time) (Brands).json",
+       "group": "FontAwesome (Free) (Time) (Brands)",
+       "count": 1
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Transportation) (Brands).json",
+       "group": "FontAwesome (Free) (Transportation) (Brands)",
+       "count": 5
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Travel + Hotel) (Brands).json",
+       "group": "FontAwesome (Free) (Travel + Hotel) (Brands)",
+       "count": 4
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Users + People) (Brands).json",
+       "group": "FontAwesome (Free) (Users + People) (Brands)",
+       "count": 3
+      },
+      {
+       "path": "Fontawesome/Brands/group-FontAwesome (Free) (Writing) (Brands).json",
+       "group": "FontAwesome (Free) (Writing) (Brands)",
+       "count": 19
+      }
+     ],
+     "count": 1381
+    }
+   ]
+  },
+  {
+   "folder": "MaterialSymbols",
+   "name": "Material Symbols",
+   "author": "Google LLC",
+   "license": "Apache 2.0",
+   "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/google/material-design-icons"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://fonts.google.com/icons"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are modified from the originals (size attributes removed, preserveAspectRatio and fill=\"currentColor\" added).",
+   "readme": "MaterialSymbols/README.md",
+   "styles": [
+    {
+     "name": "Outlined",
+     "folder": "Outlined",
+     "files": [
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Actions).json",
+       "group": "Material Symbols (Actions)",
+       "count": 272
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Activities).json",
+       "group": "Material Symbols (Activities)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Android).json",
+       "group": "Material Symbols (Android)",
+       "count": 274
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Audio&Video).json",
+       "group": "Material Symbols (Audio&Video)",
+       "count": 228
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Business).json",
+       "group": "Material Symbols (Business)",
+       "count": 181
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Communicate).json",
+       "group": "Material Symbols (Communicate)",
+       "count": 172
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Hardware).json",
+       "group": "Material Symbols (Hardware)",
+       "count": 271
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Home).json",
+       "group": "Material Symbols (Home)",
+       "count": 125
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Household).json",
+       "group": "Material Symbols (Household)",
+       "count": 189
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Images).json",
+       "group": "Material Symbols (Images)",
+       "count": 297
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Maps).json",
+       "group": "Material Symbols (Maps)",
+       "count": 175
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Privacy).json",
+       "group": "Material Symbols (Privacy)",
+       "count": 45
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Social).json",
+       "group": "Material Symbols (Social)",
+       "count": 384
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Text).json",
+       "group": "Material Symbols (Text)",
+       "count": 520
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Transit).json",
+       "group": "Material Symbols (Transit)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (Travel).json",
+       "group": "Material Symbols (Travel)",
+       "count": 94
+      },
+      {
+       "path": "MaterialSymbols/Outlined/group-Material Symbols (UI actions).json",
+       "group": "Material Symbols (UI actions)",
+       "count": 448
+      }
+     ],
+     "count": 3929
+    },
+    {
+     "name": "Rounded",
+     "folder": "Rounded",
+     "files": [
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Actions) (Rounded).json",
+       "group": "Material Symbols (Actions) (Rounded)",
+       "count": 272
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Activities) (Rounded).json",
+       "group": "Material Symbols (Activities) (Rounded)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Android) (Rounded).json",
+       "group": "Material Symbols (Android) (Rounded)",
+       "count": 274
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Audio&Video) (Rounded).json",
+       "group": "Material Symbols (Audio&Video) (Rounded)",
+       "count": 228
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Business) (Rounded).json",
+       "group": "Material Symbols (Business) (Rounded)",
+       "count": 181
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Communicate) (Rounded).json",
+       "group": "Material Symbols (Communicate) (Rounded)",
+       "count": 172
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Hardware) (Rounded).json",
+       "group": "Material Symbols (Hardware) (Rounded)",
+       "count": 271
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Home) (Rounded).json",
+       "group": "Material Symbols (Home) (Rounded)",
+       "count": 125
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Household) (Rounded).json",
+       "group": "Material Symbols (Household) (Rounded)",
+       "count": 189
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Images) (Rounded).json",
+       "group": "Material Symbols (Images) (Rounded)",
+       "count": 297
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Maps) (Rounded).json",
+       "group": "Material Symbols (Maps) (Rounded)",
+       "count": 175
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Privacy) (Rounded).json",
+       "group": "Material Symbols (Privacy) (Rounded)",
+       "count": 45
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Social) (Rounded).json",
+       "group": "Material Symbols (Social) (Rounded)",
+       "count": 384
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Text) (Rounded).json",
+       "group": "Material Symbols (Text) (Rounded)",
+       "count": 520
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Transit) (Rounded).json",
+       "group": "Material Symbols (Transit) (Rounded)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (Travel) (Rounded).json",
+       "group": "Material Symbols (Travel) (Rounded)",
+       "count": 94
+      },
+      {
+       "path": "MaterialSymbols/Rounded/group-Material Symbols (UI actions) (Rounded).json",
+       "group": "Material Symbols (UI actions) (Rounded)",
+       "count": 448
+      }
+     ],
+     "count": 3929
+    },
+    {
+     "name": "Sharp",
+     "folder": "Sharp",
+     "files": [
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Actions) (Sharp).json",
+       "group": "Material Symbols (Actions) (Sharp)",
+       "count": 272
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Activities) (Sharp).json",
+       "group": "Material Symbols (Activities) (Sharp)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Android) (Sharp).json",
+       "group": "Material Symbols (Android) (Sharp)",
+       "count": 274
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Audio&Video) (Sharp).json",
+       "group": "Material Symbols (Audio&Video) (Sharp)",
+       "count": 228
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Business) (Sharp).json",
+       "group": "Material Symbols (Business) (Sharp)",
+       "count": 181
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Communicate) (Sharp).json",
+       "group": "Material Symbols (Communicate) (Sharp)",
+       "count": 172
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Hardware) (Sharp).json",
+       "group": "Material Symbols (Hardware) (Sharp)",
+       "count": 271
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Home) (Sharp).json",
+       "group": "Material Symbols (Home) (Sharp)",
+       "count": 125
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Household) (Sharp).json",
+       "group": "Material Symbols (Household) (Sharp)",
+       "count": 189
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Images) (Sharp).json",
+       "group": "Material Symbols (Images) (Sharp)",
+       "count": 297
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Maps) (Sharp).json",
+       "group": "Material Symbols (Maps) (Sharp)",
+       "count": 175
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Privacy) (Sharp).json",
+       "group": "Material Symbols (Privacy) (Sharp)",
+       "count": 45
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Social) (Sharp).json",
+       "group": "Material Symbols (Social) (Sharp)",
+       "count": 384
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Text) (Sharp).json",
+       "group": "Material Symbols (Text) (Sharp)",
+       "count": 520
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Transit) (Sharp).json",
+       "group": "Material Symbols (Transit) (Sharp)",
+       "count": 127
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (Travel) (Sharp).json",
+       "group": "Material Symbols (Travel) (Sharp)",
+       "count": 94
+      },
+      {
+       "path": "MaterialSymbols/Sharp/group-Material Symbols (UI actions) (Sharp).json",
+       "group": "Material Symbols (UI actions) (Sharp)",
+       "count": 448
+      }
+     ],
+     "count": 3929
+    }
+   ]
+  },
+  {
+   "folder": "Tabler",
+   "name": "Tabler Icons 3.49.0",
+   "author": "Paweł Kuna",
+   "license": "MIT",
+   "licenseUrl": "https://github.com/tabler/tabler-icons/blob/main/LICENSE",
+   "links": [
+    {
+     "label": "Source",
+     "url": "https://github.com/tabler/tabler-icons"
+    },
+    {
+     "label": "Browse icons",
+     "url": "https://tabler.io/icons"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed. The SVGs are rebuilt from the Iconify icon bodies.",
+   "readme": "Tabler/README.md",
+   "styles": [
+    {
+     "name": "Outline",
+     "folder": "Outline",
+     "files": [
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Animals) (Outline).json",
+       "group": "Tabler Icons (Animals) (Outline)",
+       "count": 18
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Arrows) (Outline).json",
+       "group": "Tabler Icons (Arrows) (Outline)",
+       "count": 333
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Badges) (Outline).json",
+       "group": "Tabler Icons (Badges) (Outline)",
+       "count": 22
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Brand) (Outline).json",
+       "group": "Tabler Icons (Brand) (Outline)",
+       "count": 376
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Buildings) (Outline).json",
+       "group": "Tabler Icons (Buildings) (Outline)",
+       "count": 95
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Charts) (Outline).json",
+       "group": "Tabler Icons (Charts) (Outline)",
+       "count": 39
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Communication) (Outline).json",
+       "group": "Tabler Icons (Communication) (Outline)",
+       "count": 121
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Computers) (Outline).json",
+       "group": "Tabler Icons (Computers) (Outline)",
+       "count": 44
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Currencies) (Outline).json",
+       "group": "Tabler Icons (Currencies) (Outline)",
+       "count": 76
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Database) (Outline).json",
+       "group": "Tabler Icons (Database) (Outline)",
+       "count": 42
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Design) (Outline).json",
+       "group": "Tabler Icons (Design) (Outline)",
+       "count": 350
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Development) (Outline).json",
+       "group": "Tabler Icons (Development) (Outline)",
+       "count": 63
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Devices) (Outline).json",
+       "group": "Tabler Icons (Devices) (Outline)",
+       "count": 363
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Document) (Outline).json",
+       "group": "Tabler Icons (Document) (Outline)",
+       "count": 209
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (E-commerce) (Outline).json",
+       "group": "Tabler Icons (E-commerce) (Outline)",
+       "count": 155
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Electrical) (Outline).json",
+       "group": "Tabler Icons (Electrical) (Outline)",
+       "count": 19
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Extensions) (Outline).json",
+       "group": "Tabler Icons (Extensions) (Outline)",
+       "count": 13
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Food) (Outline).json",
+       "group": "Tabler Icons (Food) (Outline)",
+       "count": 96
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Games) (Outline).json",
+       "group": "Tabler Icons (Games) (Outline)",
+       "count": 48
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Gender) (Outline).json",
+       "group": "Tabler Icons (Gender) (Outline)",
+       "count": 18
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Gestures) (Outline).json",
+       "group": "Tabler Icons (Gestures) (Outline)",
+       "count": 17
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Health) (Outline).json",
+       "group": "Tabler Icons (Health) (Outline)",
+       "count": 87
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Laundry) (Outline).json",
+       "group": "Tabler Icons (Laundry) (Outline)",
+       "count": 40
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Letters) (Outline).json",
+       "group": "Tabler Icons (Letters) (Outline)",
+       "count": 214
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Logic) (Outline).json",
+       "group": "Tabler Icons (Logic) (Outline)",
+       "count": 8
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Map) (Outline).json",
+       "group": "Tabler Icons (Map) (Outline)",
+       "count": 263
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Math) (Outline).json",
+       "group": "Tabler Icons (Math) (Outline)",
+       "count": 88
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Media) (Outline).json",
+       "group": "Tabler Icons (Media) (Outline)",
+       "count": 160
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Mood) (Outline).json",
+       "group": "Tabler Icons (Mood) (Outline)",
+       "count": 52
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Nature) (Outline).json",
+       "group": "Tabler Icons (Nature) (Outline)",
+       "count": 50
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Numbers) (Outline).json",
+       "group": "Tabler Icons (Numbers) (Outline)",
+       "count": 196
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Photography) (Outline).json",
+       "group": "Tabler Icons (Photography) (Outline)",
+       "count": 52
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Shapes) (Outline).json",
+       "group": "Tabler Icons (Shapes) (Outline)",
+       "count": 187
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Sport) (Outline).json",
+       "group": "Tabler Icons (Sport) (Outline)",
+       "count": 76
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Symbols) (Outline).json",
+       "group": "Tabler Icons (Symbols) (Outline)",
+       "count": 37
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (System) (Outline).json",
+       "group": "Tabler Icons (System) (Outline)",
+       "count": 784
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Text) (Outline).json",
+       "group": "Tabler Icons (Text) (Outline)",
+       "count": 194
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Vehicles) (Outline).json",
+       "group": "Tabler Icons (Vehicles) (Outline)",
+       "count": 90
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Version control) (Outline).json",
+       "group": "Tabler Icons (Version control) (Outline)",
+       "count": 16
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Weather) (Outline).json",
+       "group": "Tabler Icons (Weather) (Outline)",
+       "count": 61
+      },
+      {
+       "path": "Tabler/Outline/group-Tabler Icons (Zodiac) (Outline).json",
+       "group": "Tabler Icons (Zodiac) (Outline)",
+       "count": 12
+      }
+     ],
+     "count": 5184
+    },
+    {
+     "name": "Filled",
+     "folder": "Filled",
+     "files": [
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Animals) (Filled).json",
+       "group": "Tabler Icons (Animals) (Filled)",
+       "count": 4
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Arrows) (Filled).json",
+       "group": "Tabler Icons (Arrows) (Filled)",
+       "count": 100
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Badges) (Filled).json",
+       "group": "Tabler Icons (Badges) (Filled)",
+       "count": 15
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Brand) (Filled).json",
+       "group": "Tabler Icons (Brand) (Filled)",
+       "count": 35
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Buildings) (Filled).json",
+       "group": "Tabler Icons (Buildings) (Filled)",
+       "count": 7
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Charts) (Filled).json",
+       "group": "Tabler Icons (Charts) (Filled)",
+       "count": 14
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Communication) (Filled).json",
+       "group": "Tabler Icons (Communication) (Filled)",
+       "count": 11
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Computers) (Filled).json",
+       "group": "Tabler Icons (Computers) (Filled)",
+       "count": 4
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Database) (Filled).json",
+       "group": "Tabler Icons (Database) (Filled)",
+       "count": 5
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Design) (Filled).json",
+       "group": "Tabler Icons (Design) (Filled)",
+       "count": 102
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Development) (Filled).json",
+       "group": "Tabler Icons (Development) (Filled)",
+       "count": 7
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Devices) (Filled).json",
+       "group": "Tabler Icons (Devices) (Filled)",
+       "count": 45
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Document) (Filled).json",
+       "group": "Tabler Icons (Document) (Filled)",
+       "count": 66
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (E-commerce) (Filled).json",
+       "group": "Tabler Icons (E-commerce) (Filled)",
+       "count": 26
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Food) (Filled).json",
+       "group": "Tabler Icons (Food) (Filled)",
+       "count": 28
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Games) (Filled).json",
+       "group": "Tabler Icons (Games) (Filled)",
+       "count": 29
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Health) (Filled).json",
+       "group": "Tabler Icons (Health) (Filled)",
+       "count": 16
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Laundry) (Filled).json",
+       "group": "Tabler Icons (Laundry) (Filled)",
+       "count": 5
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Letters) (Filled).json",
+       "group": "Tabler Icons (Letters) (Filled)",
+       "count": 104
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Map) (Filled).json",
+       "group": "Tabler Icons (Map) (Filled)",
+       "count": 43
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Math) (Filled).json",
+       "group": "Tabler Icons (Math) (Filled)",
+       "count": 2
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Media) (Filled).json",
+       "group": "Tabler Icons (Media) (Filled)",
+       "count": 27
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Mood) (Filled).json",
+       "group": "Tabler Icons (Mood) (Filled)",
+       "count": 10
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Nature) (Filled).json",
+       "group": "Tabler Icons (Nature) (Filled)",
+       "count": 18
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Numbers) (Filled).json",
+       "group": "Tabler Icons (Numbers) (Filled)",
+       "count": 40
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Photography) (Filled).json",
+       "group": "Tabler Icons (Photography) (Filled)",
+       "count": 13
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Shapes) (Filled).json",
+       "group": "Tabler Icons (Shapes) (Filled)",
+       "count": 49
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Sport) (Filled).json",
+       "group": "Tabler Icons (Sport) (Filled)",
+       "count": 13
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Symbols) (Filled).json",
+       "group": "Tabler Icons (Symbols) (Filled)",
+       "count": 8
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (System) (Filled).json",
+       "group": "Tabler Icons (System) (Filled)",
+       "count": 132
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Text) (Filled).json",
+       "group": "Tabler Icons (Text) (Filled)",
+       "count": 34
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Vehicles) (Filled).json",
+       "group": "Tabler Icons (Vehicles) (Filled)",
+       "count": 31
+      },
+      {
+       "path": "Tabler/Filled/group-Tabler Icons (Weather) (Filled).json",
+       "group": "Tabler Icons (Weather) (Filled)",
+       "count": 11
+      }
+     ],
+     "count": 1054
+    }
+   ]
+  },
+  {
+   "folder": "Zondicons",
+   "name": "Zondicons",
+   "author": "Steve Schoger",
+   "license": "Public Domain",
+   "licenseUrl": "https://www.svgrepo.com/collection/zondicons-interface-icons/",
+   "links": [
+    {
+     "label": "Website",
+     "url": "http://www.zondicons.com/"
+    },
+    {
+     "label": "SVG Repo collection",
+     "url": "https://www.svgrepo.com/collection/zondicons-interface-icons/"
+    }
+   ],
+   "attribution": "",
+   "note": "No page attribution needed.",
+   "readme": "Zondicons/README.md",
+   "styles": [
+    {
+     "name": "Default",
+     "folder": "",
+     "files": [
+      {
+       "path": "Zondicons/group-Zondicons.json",
+       "group": "Zandicons",
+       "count": 289
+      }
+     ],
+     "count": 289
+    }
+   ]
+  }
+ ],
+ "total": 22933
+}
