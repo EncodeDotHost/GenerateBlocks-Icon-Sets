@@ -78,7 +78,7 @@ class GBIS_Source {
 				'gbis_http',
 				sprintf(
 					/* translators: 1: HTTP status code, 2: URL */
-					__( 'GitHub answered with HTTP %1$d for %2$s.', 'generateblocks-icon-sets' ),
+					__( 'GitHub answered with HTTP %1$d for %2$s.', 'icon-sets-for-generateblocks' ),
 					$code,
 					self::manifest_url()
 				)
@@ -111,7 +111,7 @@ class GBIS_Source {
 	 * @return array|WP_Error
 	 */
 	private static function validate_manifest( $data ) {
-		$invalid = new WP_Error( 'gbis_invalid_manifest', __( 'The manifest from GitHub is not in the expected format.', 'generateblocks-icon-sets' ) );
+		$invalid = new WP_Error( 'gbis_invalid_manifest', __( 'The manifest from GitHub is not in the expected format.', 'icon-sets-for-generateblocks' ) );
 
 		if ( ! is_array( $data ) || empty( $data['sets'] ) || ! is_array( $data['sets'] ) ) {
 			return $invalid;
@@ -233,7 +233,7 @@ class GBIS_Source {
 				'gbis_unknown_path',
 				sprintf(
 					/* translators: %s: file path */
-					__( '%s is not a group file listed in the manifest. Refresh the manifest and try again.', 'generateblocks-icon-sets' ),
+					__( '%s is not a group file listed in the manifest. Refresh the manifest and try again.', 'icon-sets-for-generateblocks' ),
 					$path
 				)
 			);
@@ -265,7 +265,7 @@ class GBIS_Source {
 				'gbis_http',
 				sprintf(
 					/* translators: 1: HTTP status code, 2: URL */
-					__( 'GitHub answered with HTTP %1$d for %2$s.', 'generateblocks-icon-sets' ),
+					__( 'GitHub answered with HTTP %1$d for %2$s.', 'icon-sets-for-generateblocks' ),
 					$code,
 					$url
 				)
@@ -279,7 +279,7 @@ class GBIS_Source {
 			'gbis_invalid_group',
 			sprintf(
 				/* translators: %s: file path */
-				__( '%s is not a valid icon group file.', 'generateblocks-icon-sets' ),
+				__( '%s is not a valid icon group file.', 'icon-sets-for-generateblocks' ),
 				$path
 			)
 		);
@@ -295,7 +295,7 @@ class GBIS_Source {
 				'gbis_group_mismatch',
 				sprintf(
 					/* translators: 1: group name in the file, 2: group name in the manifest */
-					__( 'The file names its group "%1$s" but the manifest says "%2$s". Refresh the manifest and try again.', 'generateblocks-icon-sets' ),
+					__( 'The file names its group "%1$s" but the manifest says "%2$s". Refresh the manifest and try again.', 'icon-sets-for-generateblocks' ),
 					$data['group'],
 					$file['group']
 				)

@@ -11,7 +11,7 @@
  * License: GPL-3.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
  * Update URI: https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks
- * Text Domain: generateblocks-icon-sets
+ * Text Domain: icon-sets-for-generateblocks
  *
  * @package Icon_Sets_for_GenerateBlocks
  */
@@ -26,7 +26,7 @@ define( 'GBIS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'GBIS_URL', plugin_dir_url( __FILE__ ) );
 define( 'GBIS_REPO', 'EncodeDotHost/Icon-Sets-for-GenerateBlocks' );
 define( 'GBIS_BRANCH', 'main' );
-define( 'GBIS_SLUG', 'generateblocks-icon-sets' );
+define( 'GBIS_SLUG', 'icon-sets-for-generateblocks' );
 
 // The updater works without GenerateBlocks Pro so the plugin can still be updated.
 require_once GBIS_DIR . 'includes/class-updater.php';
@@ -70,7 +70,7 @@ function gbis_missing_pro_notice() {
 		return;
 	}
 	echo '<div class="notice notice-error"><p>';
-	echo esc_html__( 'Icon Sets for GenerateBlocks needs GenerateBlocks and GenerateBlocks Pro to be active. The Asset Library is a GenerateBlocks Pro feature.', 'generateblocks-icon-sets' );
+	echo esc_html__( 'Icon Sets for GenerateBlocks needs GenerateBlocks and GenerateBlocks Pro to be active. The Asset Library is a GenerateBlocks Pro feature.', 'icon-sets-for-generateblocks' );
 	echo '</p></div>';
 }
 

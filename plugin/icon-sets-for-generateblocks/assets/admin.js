@@ -19,10 +19,10 @@
 	const selectedCount = $( '.gbis-selected-count' );
 
 	const STATUS = {
-		'not-installed': __( 'Not installed', 'generateblocks-icon-sets' ),
-		installed: __( 'Installed', 'generateblocks-icon-sets' ),
-		changed: __( 'Update available', 'generateblocks-icon-sets' ),
-		foreign: __( 'Exists, not from this plugin', 'generateblocks-icon-sets' ),
+		'not-installed': __( 'Not installed', 'icon-sets-for-generateblocks' ),
+		installed: __( 'Installed', 'icon-sets-for-generateblocks' ),
+		changed: __( 'Update available', 'icon-sets-for-generateblocks' ),
+		foreign: __( 'Exists, not from this plugin', 'icon-sets-for-generateblocks' ),
 	};
 
 	let manifest = null;
@@ -59,7 +59,7 @@
 		if ( err && err.message ) {
 			return err.message;
 		}
-		return __( 'Unknown error.', 'generateblocks-icon-sets' );
+		return __( 'Unknown error.', 'icon-sets-for-generateblocks' );
 	}
 
 	function addLog( text, type ) {
@@ -69,11 +69,11 @@
 	/* ---------- Loading and rendering ---------- */
 
 	async function load( refresh ) {
-		app.replaceChildren( el( 'p', { class: 'gbis-loading', text: __( 'Loading the set list from GitHub…', 'generateblocks-icon-sets' ) } ) );
+		app.replaceChildren( el( 'p', { class: 'gbis-loading', text: __( 'Loading the set list from GitHub…', 'icon-sets-for-generateblocks' ) } ) );
 		try {
 			manifest = await apiFetch( { path: NS + '/manifest' + ( refresh ? '?refresh=1' : '' ) } );
 		} catch ( err ) {
-			app.replaceChildren( el( 'div', { class: 'notice notice-error inline' }, [ el( 'p', { text: sprintf( __( 'Could not load the set list: %s', 'generateblocks-icon-sets' ), errorMessage( err ) ) } ) ] ) );
+			app.replaceChildren( el( 'div', { class: 'notice notice-error inline' }, [ el( 'p', { text: sprintf( __( 'Could not load the set list: %s', 'icon-sets-for-generateblocks' ), errorMessage( err ) ) } ) ] ) );
 			return;
 		}
 		files = new Map();
@@ -102,15 +102,15 @@
 
 	function setSummaryText( set ) {
 		const c = setCounts( set );
-		let text = sprintf( __( '%1$d of %2$d groups installed', 'generateblocks-icon-sets' ), c.installed, c.total );
+		let text = sprintf( __( '%1$d of %2$d groups installed', 'icon-sets-for-generateblocks' ), c.installed, c.total );
 		if ( c.changed ) {
-			text += ' · ' + sprintf( __( '%d with updates', 'generateblocks-icon-sets' ), c.changed );
+			text += ' · ' + sprintf( __( '%d with updates', 'icon-sets-for-generateblocks' ), c.changed );
 		}
 		return text;
 	}
 
 	function render() {
-		const total = el( 'p', { class: 'gbis-total', text: sprintf( __( '%1$d sets, %2$d icons in total.', 'generateblocks-icon-sets' ), manifest.sets.length, manifest.total ) } );
+		const total = el( 'p', { class: 'gbis-total', text: sprintf( __( '%1$d sets, %2$d icons in total.', 'icon-sets-for-generateblocks' ), manifest.sets.length, manifest.total ) } );
 		app.replaceChildren( total, ...manifest.sets.map( renderSet ) );
 		updateToolbar();
 	}
@@ -118,14 +118,14 @@
 	function renderSet( set ) {
 		const meta = el( 'div', { class: 'gbis-set-meta' }, [
 			el( 'p', {}, [
-				sprintf( __( 'Author: %s', 'generateblocks-icon-sets' ), set.author ),
+				sprintf( __( 'Author: %s', 'icon-sets-for-generateblocks' ), set.author ),
 				' · ',
-				__( 'License: ', 'generateblocks-icon-sets' ),
+				__( 'License: ', 'icon-sets-for-generateblocks' ),
 				set.licenseUrl ? link( set.licenseUrl, set.license ) : set.license,
 				...set.links.flatMap( ( l ) => [ ' · ', link( l.url, l.label ) ] ),
 			] ),
 			set.note ? el( 'p', { text: set.note } ) : null,
-			set.attribution ? el( 'p', { class: 'gbis-attribution' }, [ el( 'strong', { text: __( 'Attribution required: ', 'generateblocks-icon-sets' ) } ), set.attribution ] ) : null,
+			set.attribution ? el( 'p', { class: 'gbis-attribution' }, [ el( 'strong', { text: __( 'Attribution required: ', 'icon-sets-for-generateblocks' ) } ), set.attribution ] ) : null,
 		] );
 
 		const summary = el( 'summary', {}, [
@@ -142,7 +142,7 @@
 	function renderStyle( set, style ) {
 		const all = el( 'input', {
 			type: 'checkbox',
-			'aria-label': sprintf( __( 'Select all groups in %s', 'generateblocks-icon-sets' ), style.name ),
+			'aria-label': sprintf( __( 'Select all groups in %s', 'icon-sets-for-generateblocks' ), style.name ),
 			onchange: ( e ) => {
 				$$( 'tbody input[type=checkbox]', table ).forEach( ( cb ) => {
 					cb.checked = e.target.checked;
@@ -154,16 +154,16 @@
 		const table = el( 'table', { class: 'widefat striped gbis-table' }, [
 			el( 'thead', {}, [ el( 'tr', {}, [
 				el( 'td', { class: 'check-column' }, [ all ] ),
-				el( 'th', { text: __( 'Group', 'generateblocks-icon-sets' ) } ),
-				el( 'th', { class: 'gbis-num', text: __( 'Icons', 'generateblocks-icon-sets' ) } ),
-				el( 'th', { text: __( 'Status', 'generateblocks-icon-sets' ) } ),
-				el( 'th', { text: __( 'Actions', 'generateblocks-icon-sets' ) } ),
+				el( 'th', { text: __( 'Group', 'icon-sets-for-generateblocks' ) } ),
+				el( 'th', { class: 'gbis-num', text: __( 'Icons', 'icon-sets-for-generateblocks' ) } ),
+				el( 'th', { text: __( 'Status', 'icon-sets-for-generateblocks' ) } ),
+				el( 'th', { text: __( 'Actions', 'icon-sets-for-generateblocks' ) } ),
 			] ) ] ),
 			el( 'tbody', {}, style.files.map( renderRow ) ),
 		] );
 
 		const heading = set.styles.length > 1 || style.name !== 'Default'
-			? el( 'h3', { text: sprintf( __( '%1$s · %2$d icons', 'generateblocks-icon-sets' ), style.name, style.count ) } )
+			? el( 'h3', { text: sprintf( __( '%1$s · %2$d icons', 'icon-sets-for-generateblocks' ), style.name, style.count ) } )
 			: null;
 
 		return el( 'div', { class: 'gbis-style' }, [ heading, table ] );
@@ -191,12 +191,12 @@
 		} ) );
 
 		if ( file.status === 'not-installed' ) {
-			add( __( 'Install', 'generateblocks-icon-sets' ), 'install' );
+			add( __( 'Install', 'icon-sets-for-generateblocks' ), 'install' );
 		} else if ( file.status === 'foreign' ) {
-			add( __( 'Replace', 'generateblocks-icon-sets' ), 'replace' );
+			add( __( 'Replace', 'icon-sets-for-generateblocks' ), 'replace' );
 		} else {
-			add( file.status === 'changed' ? __( 'Update', 'generateblocks-icon-sets' ) : __( 'Reinstall', 'generateblocks-icon-sets' ), 'reinstall' );
-			add( __( 'Remove', 'generateblocks-icon-sets' ), 'remove' );
+			add( file.status === 'changed' ? __( 'Update', 'icon-sets-for-generateblocks' ) : __( 'Reinstall', 'icon-sets-for-generateblocks' ), 'reinstall' );
+			add( __( 'Remove', 'icon-sets-for-generateblocks' ), 'remove' );
 		}
 
 		row.replaceChildren(
@@ -227,7 +227,7 @@
 		$( '[data-action=remove]', toolbar ).disabled = busy || ! owned.length;
 		$( '[data-action=update-all]', toolbar ).disabled = busy || ! changedFiles().length;
 		$( '[data-action=refresh]', toolbar ).disabled = busy;
-		selectedCount.textContent = sel.length ? sprintf( __( '%d selected', 'generateblocks-icon-sets' ), sel.length ) : '';
+		selectedCount.textContent = sel.length ? sprintf( __( '%d selected', 'icon-sets-for-generateblocks' ), sel.length ) : '';
 		$$( '.gbis-actions button' ).forEach( ( b ) => {
 			b.disabled = busy;
 		} );
@@ -262,7 +262,7 @@
 			if ( foreign.length ) {
 				// eslint-disable-next-line no-alert
 				const ok = window.confirm( sprintf(
-					__( '%d of the selected groups already exist in the Asset Library and were not installed by this plugin. Replace them with the repository version? Cancel skips them.', 'generateblocks-icon-sets' ),
+					__( '%d of the selected groups already exist in the Asset Library and were not installed by this plugin. Replace them with the repository version? Cancel skips them.', 'icon-sets-for-generateblocks' ),
 					foreign.length
 				) );
 				if ( ok ) {
@@ -271,14 +271,14 @@
 			}
 		} else if ( action === 'replace' ) {
 			// eslint-disable-next-line no-alert
-			if ( ! window.confirm( sprintf( __( 'Replace the existing group "%s" with the repository version?', 'generateblocks-icon-sets' ), list[ 0 ].group ) ) ) {
+			if ( ! window.confirm( sprintf( __( 'Replace the existing group "%s" with the repository version?', 'icon-sets-for-generateblocks' ), list[ 0 ].group ) ) ) {
 				return;
 			}
 			jobs = list.map( ( f ) => [ 'replace', f ] );
 		} else if ( action === 'remove' ) {
 			const owned = list.filter( ( f ) => f.status === 'installed' || f.status === 'changed' );
 			// eslint-disable-next-line no-alert
-			if ( ! owned.length || ! window.confirm( sprintf( __( 'Remove %d group(s) from the Asset Library? Icons already placed in blocks are not affected.', 'generateblocks-icon-sets' ), owned.length ) ) ) {
+			if ( ! owned.length || ! window.confirm( sprintf( __( 'Remove %d group(s) from the Asset Library? Icons already placed in blocks are not affected.', 'icon-sets-for-generateblocks' ), owned.length ) ) ) {
 				return;
 			}
 			jobs = owned.map( ( f ) => [ 'remove', f ] );
@@ -300,10 +300,10 @@
 
 		for ( let i = 0; i < jobs.length; i++ ) {
 			const [ act, file ] = jobs[ i ];
-			progressText.textContent = sprintf( __( '%1$d of %2$d: %3$s', 'generateblocks-icon-sets' ), i + 1, jobs.length, file.group );
+			progressText.textContent = sprintf( __( '%1$d of %2$d: %3$s', 'icon-sets-for-generateblocks' ), i + 1, jobs.length, file.group );
 			try {
 				file.status = await runOne( act, file );
-				addLog( ( act === 'remove' ? __( 'Removed: ', 'generateblocks-icon-sets' ) : __( 'Installed: ', 'generateblocks-icon-sets' ) ) + file.group, 'success' );
+				addLog( ( act === 'remove' ? __( 'Removed: ', 'icon-sets-for-generateblocks' ) : __( 'Installed: ', 'icon-sets-for-generateblocks' ) ) + file.group, 'success' );
 			} catch ( err ) {
 				failed++;
 				addLog( file.group + ': ' + errorMessage( err ), 'error' );
@@ -314,8 +314,8 @@
 		}
 
 		progressText.textContent = failed
-			? sprintf( __( 'Done. %1$d succeeded, %2$d failed.', 'generateblocks-icon-sets' ), jobs.length - failed, failed )
-			: sprintf( __( 'Done. %d succeeded.', 'generateblocks-icon-sets' ), jobs.length );
+			? sprintf( __( 'Done. %1$d succeeded, %2$d failed.', 'icon-sets-for-generateblocks' ), jobs.length - failed, failed )
+			: sprintf( __( 'Done. %d succeeded.', 'icon-sets-for-generateblocks' ), jobs.length );
 
 		$$( '#gbis-app input[type=checkbox]' ).forEach( ( cb ) => {
 			cb.checked = false;
@@ -344,10 +344,10 @@
 	const attributionBox = $( '#gbis-print-attribution' );
 	const settingsStatus = $( '.gbis-settings-status' );
 	attributionBox.addEventListener( 'change', async () => {
-		settingsStatus.textContent = __( 'Saving…', 'generateblocks-icon-sets' );
+		settingsStatus.textContent = __( 'Saving…', 'icon-sets-for-generateblocks' );
 		try {
 			await apiFetch( { path: NS + '/settings', method: 'POST', data: { print_attribution: attributionBox.checked } } );
-			settingsStatus.textContent = __( 'Saved.', 'generateblocks-icon-sets' );
+			settingsStatus.textContent = __( 'Saved.', 'icon-sets-for-generateblocks' );
 		} catch ( err ) {
 			attributionBox.checked = ! attributionBox.checked;
 			settingsStatus.textContent = errorMessage( err );

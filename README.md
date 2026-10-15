@@ -5,12 +5,12 @@ A collection of icon sets for the GenerateBlocks Pro WordPress Plugin
 
 The Icon Sets for GenerateBlocks plugin installs the groups for you, straight from this repository.
 
-1. Download `generateblocks-icon-sets.zip` from the [latest release](https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest).
+1. Download `icon-sets-for-generateblocks.zip` from the [latest release](https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest).
 2. In WordPress, go to Plugins > Add New > Upload Plugin, upload the zip and activate it.
 3. Go to GenerateBlocks > Icon Sets, select the groups you want and click Install selected.
 
 The plugin shows which groups are installed, updates them when the repository changes, and can remove them.
-It also has a WP-CLI command, `wp gb-icon-sets`. The plugin source is in [plugin/generateblocks-icon-sets](plugin/generateblocks-icon-sets).
+It also has a WP-CLI command, `wp gb-icon-sets`. The plugin source is in [plugin/icon-sets-for-generateblocks](plugin/icon-sets-for-generateblocks).
 
 ## How to use (manual import)
 

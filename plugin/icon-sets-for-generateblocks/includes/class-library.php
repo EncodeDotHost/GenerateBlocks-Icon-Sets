@@ -199,7 +199,7 @@ class GBIS_Library {
 				'gbis_exists',
 				sprintf(
 					/* translators: %s: group name */
-					__( 'A group named "%s" already exists in the Asset Library and was not installed by this plugin. Use replace to overwrite it.', 'generateblocks-icon-sets' ),
+					__( 'A group named "%s" already exists in the Asset Library and was not installed by this plugin. Use replace to overwrite it.', 'icon-sets-for-generateblocks' ),
 					$entry['group']
 				)
 			);
@@ -248,7 +248,7 @@ class GBIS_Library {
 				'gbis_not_owned',
 				sprintf(
 					/* translators: %s: group id */
-					__( '"%s" was not installed by this plugin, so it stays untouched. Remove it on the GenerateBlocks Pro Asset Library page.', 'generateblocks-icon-sets' ),
+					__( '"%s" was not installed by this plugin, so it stays untouched. Remove it on the GenerateBlocks Pro Asset Library page.', 'icon-sets-for-generateblocks' ),
 					$gid
 				)
 			);

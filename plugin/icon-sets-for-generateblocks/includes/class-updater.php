@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class GBIS_Updater {
 	const TRANSIENT = 'gbis_release';
-	const ASSET     = 'generateblocks-icon-sets.zip';
+	const ASSET     = 'icon-sets-for-generateblocks.zip';
 
 	/**
 	 * Hook in.

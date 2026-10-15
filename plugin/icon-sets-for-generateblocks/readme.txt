@@ -34,7 +34,7 @@ The plugin is GPL-3.0-or-later. Each icon set keeps its own license. The admin p
 
 == Installation ==
 
-1. Download `generateblocks-icon-sets.zip` from https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest
+1. Download `icon-sets-for-generateblocks.zip` from https://github.com/EncodeDotHost/Icon-Sets-for-GenerateBlocks/releases/latest
 2. Go to Plugins > Add New > Upload Plugin and upload the zip. Activate it.
 3. Go to GenerateBlocks > Icon Sets.
 4. Open a set, select the groups you want and click Install selected.

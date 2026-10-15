@@ -13,8 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Admin page.
  */
 class GBIS_Admin_Page {
-	const PAGE   = 'generateblocks-icon-sets';
-	const SCREEN = 'generateblocks_page_generateblocks-icon-sets';
+	const PAGE   = 'icon-sets-for-generateblocks';
+	const SCREEN = 'generateblocks_page_icon-sets-for-generateblocks';
 
 	/**
 	 * Hook in. The two generateblocks_dashboard_* filters are the ones
@@ -43,8 +43,8 @@ class GBIS_Admin_Page {
 	public static function add_menu() {
 		add_submenu_page(
 			'generateblocks',
-			__( 'Icon Sets', 'generateblocks-icon-sets' ),
-			__( 'Icon Sets', 'generateblocks-icon-sets' ),
+			__( 'Icon Sets', 'icon-sets-for-generateblocks' ),
+			__( 'Icon Sets', 'icon-sets-for-generateblocks' ),
 			'manage_options',
 			self::PAGE,
 			array( __CLASS__, 'render' ),
@@ -62,7 +62,7 @@ class GBIS_Admin_Page {
 		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
 
 		$tabs['icon-sets'] = array(
-			'name'  => __( 'Icon Sets', 'generateblocks-icon-sets' ),
+			'name'  => __( 'Icon Sets', 'icon-sets-for-generateblocks' ),
 			'url'   => self::url(),
 			'class' => ( $screen && self::SCREEN === $screen->id ) ? 'active' : '',
 		);
@@ -88,7 +88,7 @@ class GBIS_Admin_Page {
 	 * @return array
 	 */
 	public static function action_links( $links ) {
-		array_unshift( $links, '<a href="' . esc_url( self::url() ) . '">' . esc_html__( 'Install icons', 'generateblocks-icon-sets' ) . '</a>' );
+		array_unshift( $links, '<a href="' . esc_url( self::url() ) . '">' . esc_html__( 'Install icons', 'icon-sets-for-generateblocks' ) . '</a>' );
 		return $links;
 	}
 
@@ -104,7 +104,7 @@ class GBIS_Admin_Page {
 
 		wp_enqueue_style( 'gbis-admin', GBIS_URL . 'assets/admin.css', array(), GBIS_VERSION );
 		wp_enqueue_script( 'gbis-admin', GBIS_URL . 'assets/admin.js', array( 'wp-api-fetch', 'wp-i18n' ), GBIS_VERSION, true );
-		wp_set_script_translations( 'gbis-admin', 'generateblocks-icon-sets' );
+		wp_set_script_translations( 'gbis-admin', 'icon-sets-for-generateblocks' );
 
 		wp_localize_script(
 			'gbis-admin',
@@ -126,39 +126,39 @@ class GBIS_Admin_Page {
 		$settings = gbis_get_settings();
 		?>
 		<div class="wrap gblocks-dashboard-wrap gbis-wrap">
-			<h1><?php esc_html_e( 'Icon Sets', 'generateblocks-icon-sets' ); ?></h1>
+			<h1><?php esc_html_e( 'Icon Sets', 'icon-sets-for-generateblocks' ); ?></h1>
 			<p>
-				<?php esc_html_e( 'Install icon groups from the Icon Sets for GenerateBlocks repository into the GenerateBlocks Pro Asset Library.', 'generateblocks-icon-sets' ); ?>
-				<a href="https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/" target="_blank" rel="noopener"><?php esc_html_e( 'Preview the icons in the gallery', 'generateblocks-icon-sets' ); ?></a>.
+				<?php esc_html_e( 'Install icon groups from the Icon Sets for GenerateBlocks repository into the GenerateBlocks Pro Asset Library.', 'icon-sets-for-generateblocks' ); ?>
+				<a href="https://encodedothost.github.io/Icon-Sets-for-GenerateBlocks/" target="_blank" rel="noopener"><?php esc_html_e( 'Preview the icons in the gallery', 'icon-sets-for-generateblocks' ); ?></a>.
 			</p>
 
 			<div class="notice notice-warning inline">
 				<p>
-					<?php esc_html_e( 'Do not keep the Asset Library page open while you install here. If you save on that page afterwards without reloading it, it overwrites the icon library and the new groups are lost.', 'generateblocks-icon-sets' ); ?>
-					<a href="<?php echo esc_url( admin_url( 'admin.php?page=generateblocks-asset-library' ) ); ?>"><?php esc_html_e( 'Open the Asset Library', 'generateblocks-icon-sets' ); ?></a>
+					<?php esc_html_e( 'Do not keep the Asset Library page open while you install here. If you save on that page afterwards without reloading it, it overwrites the icon library and the new groups are lost.', 'icon-sets-for-generateblocks' ); ?>
+					<a href="<?php echo esc_url( admin_url( 'admin.php?page=generateblocks-asset-library' ) ); ?>"><?php esc_html_e( 'Open the Asset Library', 'icon-sets-for-generateblocks' ); ?></a>
 				</p>
 			</div>
 
 			<?php if ( ! current_user_can( 'unfiltered_html' ) ) : ?>
 				<div class="notice notice-info inline">
-					<p><?php esc_html_e( 'Your account does not have the unfiltered_html capability. GenerateBlocks Pro\'s SVG allowlist is applied to each icon, the same as when you import a file by hand. It removes preserveAspectRatio. The icons still work.', 'generateblocks-icon-sets' ); ?></p>
+					<p><?php esc_html_e( 'Your account does not have the unfiltered_html capability. GenerateBlocks Pro\'s SVG allowlist is applied to each icon, the same as when you import a file by hand. It removes preserveAspectRatio. The icons still work.', 'icon-sets-for-generateblocks' ); ?></p>
 				</div>
 			<?php endif; ?>
 
 			<div class="gbis-settings">
 				<label>
 					<input type="checkbox" id="gbis-print-attribution" <?php checked( ! empty( $settings['print_attribution'] ) ); ?>>
-					<?php esc_html_e( 'Print the attribution text that some licenses require (Font Awesome: CC BY 4.0) in the page head.', 'generateblocks-icon-sets' ); ?>
+					<?php esc_html_e( 'Print the attribution text that some licenses require (Font Awesome: CC BY 4.0) in the page head.', 'icon-sets-for-generateblocks' ); ?>
 				</label>
 				<span class="gbis-settings-status" aria-live="polite"></span>
 			</div>
 
 			<div class="gbis-toolbar">
-				<button type="button" class="button button-primary" data-action="install" disabled><?php esc_html_e( 'Install selected', 'generateblocks-icon-sets' ); ?></button>
-				<button type="button" class="button" data-action="reinstall" disabled><?php esc_html_e( 'Reinstall selected', 'generateblocks-icon-sets' ); ?></button>
-				<button type="button" class="button" data-action="remove" disabled><?php esc_html_e( 'Remove selected', 'generateblocks-icon-sets' ); ?></button>
-				<button type="button" class="button" data-action="update-all" disabled><?php esc_html_e( 'Update all changed', 'generateblocks-icon-sets' ); ?></button>
-				<button type="button" class="button-link" data-action="refresh"><?php esc_html_e( 'Refresh from GitHub', 'generateblocks-icon-sets' ); ?></button>
+				<button type="button" class="button button-primary" data-action="install" disabled><?php esc_html_e( 'Install selected', 'icon-sets-for-generateblocks' ); ?></button>
+				<button type="button" class="button" data-action="reinstall" disabled><?php esc_html_e( 'Reinstall selected', 'icon-sets-for-generateblocks' ); ?></button>
+				<button type="button" class="button" data-action="remove" disabled><?php esc_html_e( 'Remove selected', 'icon-sets-for-generateblocks' ); ?></button>
+				<button type="button" class="button" data-action="update-all" disabled><?php esc_html_e( 'Update all changed', 'icon-sets-for-generateblocks' ); ?></button>
+				<button type="button" class="button-link" data-action="refresh"><?php esc_html_e( 'Refresh from GitHub', 'icon-sets-for-generateblocks' ); ?></button>
 				<span class="gbis-selected-count" aria-live="polite"></span>
 			</div>
 
@@ -169,8 +169,8 @@ class GBIS_Admin_Page {
 			<ul class="gbis-log" aria-live="polite"></ul>
 
 			<div id="gbis-app">
-				<p class="gbis-loading"><?php esc_html_e( 'Loading the set list from GitHub…', 'generateblocks-icon-sets' ); ?></p>
-				<noscript><p><?php esc_html_e( 'This page needs JavaScript.', 'generateblocks-icon-sets' ); ?></p></noscript>
+				<p class="gbis-loading"><?php esc_html_e( 'Loading the set list from GitHub…', 'icon-sets-for-generateblocks' ); ?></p>
+				<noscript><p><?php esc_html_e( 'This page needs JavaScript.', 'icon-sets-for-generateblocks' ); ?></p></noscript>
 			</div>
 		</div>
 		<?php
